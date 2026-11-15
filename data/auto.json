@@ -137,6 +137,18 @@
       ]
     },
     {
+      "id": "auto-zzz-banner-2026-09-30-2026-10-20",
+      "game": "zzz",
+      "type": "banner",
+      "title": "3.2 2차 픽업: 록시 · 프로미아",
+      "start": "2026-09-30",
+      "end": "2026-10-20",
+      "note": "종료 2026-10-20 15:59 (KST)",
+      "sources": [
+        "https://www.hoyolab.com/article/46863847"
+      ]
+    },
+    {
       "id": "auto-wuwa-version-3.7",
       "game": "wuwa",
       "type": "version",
@@ -159,18 +171,6 @@
       "note": "12:00 ~ 2026-10-22 10:59 (KST)",
       "sources": [
         "https://wutheringwaves.kurogames.com/en/main/news/detail/5546"
-      ]
-    },
-    {
-      "id": "auto-zzz-banner-2026-09-30-2026-10-20",
-      "game": "zzz",
-      "type": "banner",
-      "title": "3.2 2차 픽업: 록시 · 프로미아",
-      "start": "2026-09-30",
-      "end": "2026-10-20",
-      "note": "종료 2026-10-20 15:59 (KST)",
-      "sources": [
-        "https://www.hoyolab.com/article/46863847"
       ]
     },
     {
@@ -347,6 +347,18 @@
       ]
     },
     {
+      "id": "auto-hsr-collab-47412533",
+      "game": "hsr",
+      "type": "collab",
+      "title": "레이저 | 스타레일 콜라보 시리즈 정식 출시",
+      "start": "2026-11-12",
+      "end": "2026-11-12",
+      "note": "공지 게시일 기준",
+      "sources": [
+        "https://www.hoyolab.com/article/47412533"
+      ]
+    },
+    {
       "id": "auto-wuwa-version-3.8",
       "game": "wuwa",
       "type": "version",
@@ -369,18 +381,6 @@
       "note": "12:00 ~ 2026-12-03 10:59 (KST)",
       "sources": [
         "https://wutheringwaves.kurogames.com/en/main/news/detail/5736"
-      ]
-    },
-    {
-      "id": "auto-hsr-collab-47412533",
-      "game": "hsr",
-      "type": "collab",
-      "title": "레이저 | 스타레일 콜라보 시리즈 정식 출시",
-      "start": "2026-11-12",
-      "end": "2026-11-12",
-      "note": "공지 게시일 기준",
-      "sources": [
-        "https://www.hoyolab.com/article/47412533"
       ]
     },
     {
@@ -447,13 +447,6 @@
     }
   ],
   "codes": [
-    {
-      "game": "wuwa",
-      "code": "WUTHERINGGIFT",
-      "reward": "Astrite*50, Premium Resonance Potion*2, Medium Revival Inhaler*2, Medium Energy Bag*2, Shell Credit*10000",
-      "expires": "",
-      "source": "wutheringwaves.fandom.com"
-    },
     {
       "game": "genshin",
       "code": "NEEIJB764CA3",
@@ -614,6 +607,13 @@
       "reward": "Polychrome*20, Denny*2,222",
       "expires": "",
       "source": "hoyo-codes.seria.moe"
+    },
+    {
+      "game": "wuwa",
+      "code": "WUTHERINGGIFT",
+      "reward": "Astrite*50, Premium Resonance Potion*2, Medium Revival Inhaler*2, Medium Energy Bag*2, Shell Credit*10000",
+      "expires": "",
+      "source": "wutheringwaves.fandom.com"
     }
   ],
   "news": [
@@ -678,12 +678,6 @@
       "url": "https://www.hoyolab.com/article/47421386"
     },
     {
-      "game": "wuwa",
-      "title": "「아득한 꿈속, 잔잔히 스러진 백합」 3.8 버전 업데이트 내용 안내",
-      "date": "2026-11-12",
-      "url": "https://wutheringwaves.kurogames.com/kr/main/news/detail/5784"
-    },
-    {
       "game": "genshin",
       "title": "원신 | 애니메이션 컷신-「바위와 계약」",
       "date": "2026-11-12",
@@ -718,6 +712,12 @@
       "title": "🎁[보상 이벤트] 세베리안의 선물",
       "date": "2026-11-12",
       "url": "https://www.hoyolab.com/article/47413472"
+    },
+    {
+      "game": "wuwa",
+      "title": "「아득한 꿈속, 잔잔히 스러진 백합」 3.8 버전 업데이트 내용 안내",
+      "date": "2026-11-12",
+      "url": "https://wutheringwaves.kurogames.com/kr/main/news/detail/5784"
     },
     {
       "game": "zzz",
@@ -862,5 +862,5 @@
     "Chisa": "치사",
     "Hsin": "여우의별자리"
   },
-  "updatedAt": "2026-11-15T03:27:16.705Z"
+  "updatedAt": "2026-11-15T03:34:25.590Z"
 }
