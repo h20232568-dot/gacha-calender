@@ -456,13 +456,6 @@
     },
     {
       "game": "genshin",
-      "code": "KEEPUPWITHMITYA",
-      "reward": "Guide to Charity*3, \"Energy-Replenishing Meal\"*3, Kristallfold*3",
-      "expires": "",
-      "source": "hoyo-codes.seria.moe"
-    },
-    {
-      "game": "genshin",
       "code": "MIJIQ23V2437",
       "reward": "Mora*10000, Adventurer's Experience*10, Fine Enhancement Ore*5, Stir-Fried Fish Noodles*5, Jueyun Chili Chicken*5",
       "expires": "",
@@ -862,5 +855,5 @@
     "Suoming": "쇄명",
     "Yangyang: Xuanling": "양양·현령"
   },
-  "updatedAt": "2026-11-15T13:54:52.299Z"
+  "updatedAt": "2026-11-15T22:48:10.945Z"
 }
