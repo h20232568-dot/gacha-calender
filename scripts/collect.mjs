@@ -393,8 +393,14 @@ async function main() {
     }
   }
 
-  data.events.sort((a, b) => a.start.localeCompare(b.start));
-  data.news.sort((a, b) => b.date.localeCompare(a.date));
+  // 실행할 때마다 같은 결과가 같은 순서로 저장되도록 정렬 고정 (내용이 그대로면 커밋·재배포가 생기지 않음)
+  const by = (...keys) => (a, b) => { for (const k of keys) { const c = String(a[k] ?? "").localeCompare(String(b[k] ?? "")); if (c) return c; } return 0; };
+  data.events.sort(by("start", "id"));
+  data.codes.sort(by("game", "code"));
+  data.broadcasts.sort(by("game", "id"));
+  data.news.sort((a, b) => b.date.localeCompare(a.date) || a.game.localeCompare(b.game) || a.url.localeCompare(b.url));
+  data.cycles = Object.fromEntries(Object.entries(data.cycles).sort(([a], [b]) => a.localeCompare(b)));
+  data.wuwaNames = Object.fromEntries(Object.entries(data.wuwaNames || {}).sort(([a], [b]) => a.localeCompare(b)));
   data.updatedAt = new Date().toISOString();
   fs.mkdirSync(path.dirname(OUT), { recursive: true });
   fs.writeFileSync(OUT, JSON.stringify(data, null, 2) + "\n");

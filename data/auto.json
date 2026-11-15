@@ -75,6 +75,18 @@
       ]
     },
     {
+      "id": "auto-genshin-banner-2026-09-23-2026-10-13",
+      "game": "genshin",
+      "type": "banner",
+      "title": "7.1 1차 픽업: 베스나 · 보댜니차",
+      "start": "2026-09-23",
+      "end": "2026-10-13",
+      "note": "종료 2026-10-13 19:59 (KST)",
+      "sources": [
+        "https://www.hoyolab.com/article/46771531"
+      ]
+    },
+    {
       "id": "auto-genshin-version-7.1",
       "game": "genshin",
       "type": "version",
@@ -88,15 +100,27 @@
       ]
     },
     {
-      "id": "auto-genshin-banner-2026-09-23-2026-10-13",
-      "game": "genshin",
+      "id": "auto-hsr-banner-2026-09-28-2026-10-21",
+      "game": "hsr",
       "type": "banner",
-      "title": "7.1 1차 픽업: 베스나 · 보댜니차",
-      "start": "2026-09-23",
-      "end": "2026-10-13",
-      "note": "종료 2026-10-13 19:59 (KST)",
+      "title": "4.6 1차 픽업: 에바네시아",
+      "start": "2026-09-28",
+      "end": "2026-10-21",
+      "note": "종료 2026-10-21 12:59 (KST)",
       "sources": [
-        "https://www.hoyolab.com/article/46771531"
+        "https://www.hoyolab.com/article/46851682"
+      ]
+    },
+    {
+      "id": "auto-hsr-banner-2026-09-28-2026-11-10",
+      "game": "hsr",
+      "type": "banner",
+      "title": "4.6 1차 픽업: 펄",
+      "start": "2026-09-28",
+      "end": "2026-11-10",
+      "note": "종료 2026-11-10 16:00 (KST)",
+      "sources": [
+        "https://www.hoyolab.com/article/47142215"
       ]
     },
     {
@@ -113,39 +137,15 @@
       ]
     },
     {
-      "id": "auto-hsr-banner-2026-09-28-2026-11-10",
-      "game": "hsr",
+      "id": "auto-wuwa-banner-2026-09-30-2026-10-22",
+      "game": "wuwa",
       "type": "banner",
-      "title": "4.6 1차 픽업: 펄",
-      "start": "2026-09-28",
-      "end": "2026-11-10",
-      "note": "종료 2026-11-10 16:00 (KST)",
-      "sources": [
-        "https://www.hoyolab.com/article/47142215"
-      ]
-    },
-    {
-      "id": "auto-hsr-banner-2026-09-28-2026-10-21",
-      "game": "hsr",
-      "type": "banner",
-      "title": "4.6 1차 픽업: 에바네시아",
-      "start": "2026-09-28",
-      "end": "2026-10-21",
-      "note": "종료 2026-10-21 12:59 (KST)",
-      "sources": [
-        "https://www.hoyolab.com/article/46851682"
-      ]
-    },
-    {
-      "id": "auto-zzz-banner-2026-09-30-2026-10-20",
-      "game": "zzz",
-      "type": "banner",
-      "title": "3.2 2차 픽업: 록시 · 프로미아",
+      "title": "3.7 1차 픽업: 유노 · 치사 · 여우의별자리",
       "start": "2026-09-30",
-      "end": "2026-10-20",
-      "note": "종료 2026-10-20 15:59 (KST)",
+      "end": "2026-10-22",
+      "note": "12:00 ~ 2026-10-22 10:59 (KST)",
       "sources": [
-        "https://www.hoyolab.com/article/46863847"
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/5546"
       ]
     },
     {
@@ -162,15 +162,15 @@
       ]
     },
     {
-      "id": "auto-wuwa-banner-2026-09-30-2026-10-22",
-      "game": "wuwa",
+      "id": "auto-zzz-banner-2026-09-30-2026-10-20",
+      "game": "zzz",
       "type": "banner",
-      "title": "3.7 1차 픽업: 유노 · 치사 · 여우의별자리",
+      "title": "3.2 2차 픽업: 록시 · 프로미아",
       "start": "2026-09-30",
-      "end": "2026-10-22",
-      "note": "12:00 ~ 2026-10-22 10:59 (KST)",
+      "end": "2026-10-20",
+      "note": "종료 2026-10-20 15:59 (KST)",
       "sources": [
-        "https://wutheringwaves.kurogames.com/en/main/news/detail/5546"
+        "https://www.hoyolab.com/article/46863847"
       ]
     },
     {
@@ -261,6 +261,18 @@
       ]
     },
     {
+      "id": "auto-genshin-banner-2026-11-04-2026-11-24",
+      "game": "genshin",
+      "type": "banner",
+      "title": "7.2 1차 픽업: 미탸 · 푸리나",
+      "start": "2026-11-04",
+      "end": "2026-11-24",
+      "note": "종료 2026-11-24 19:59 (KST)",
+      "sources": [
+        "https://www.hoyolab.com/article/47284168"
+      ]
+    },
+    {
       "id": "auto-genshin-version-7.2",
       "game": "genshin",
       "type": "version",
@@ -271,18 +283,6 @@
       "note": "점검 시작 시각 (KST)",
       "sources": [
         "https://www.hoyolab.com/article/47283828"
-      ]
-    },
-    {
-      "id": "auto-genshin-banner-2026-11-04-2026-11-24",
-      "game": "genshin",
-      "type": "banner",
-      "title": "7.2 1차 픽업: 미탸 · 푸리나",
-      "start": "2026-11-04",
-      "end": "2026-11-24",
-      "note": "종료 2026-11-24 19:59 (KST)",
-      "sources": [
-        "https://www.hoyolab.com/article/47284168"
       ]
     },
     {
@@ -298,16 +298,15 @@
       ]
     },
     {
-      "id": "auto-hsr-version-4.7",
+      "id": "auto-hsr-banner-2026-11-11-2026-12-02",
       "game": "hsr",
-      "type": "version",
-      "title": "4.7 「지금, 뭇별을 웃음으로」 업데이트",
+      "type": "banner",
+      "title": "4.7 1차 픽업: 은랑 LV.999 · 스파키 · 효광",
       "start": "2026-11-11",
-      "end": "2026-11-11",
-      "time": "07:00",
-      "note": "점검 시작 시각 (KST)",
+      "end": "2026-12-02",
+      "note": "종료 2026-12-02 12:59 (KST)",
       "sources": [
-        "https://www.hoyolab.com/article/47375930"
+        "https://www.hoyolab.com/article/47385253"
       ]
     },
     {
@@ -323,15 +322,16 @@
       ]
     },
     {
-      "id": "auto-hsr-banner-2026-11-11-2026-12-02",
+      "id": "auto-hsr-version-4.7",
       "game": "hsr",
-      "type": "banner",
-      "title": "4.7 1차 픽업: 은랑 LV.999 · 스파키 · 효광",
+      "type": "version",
+      "title": "4.7 「지금, 뭇별을 웃음으로」 업데이트",
       "start": "2026-11-11",
-      "end": "2026-12-02",
-      "note": "종료 2026-12-02 12:59 (KST)",
+      "end": "2026-11-11",
+      "time": "07:00",
+      "note": "점검 시작 시각 (KST)",
       "sources": [
-        "https://www.hoyolab.com/article/47385253"
+        "https://www.hoyolab.com/article/47375930"
       ]
     },
     {
@@ -359,6 +359,18 @@
       ]
     },
     {
+      "id": "auto-wuwa-banner-2026-11-12-2026-12-03",
+      "game": "wuwa",
+      "type": "banner",
+      "title": "3.8 1차 픽업: 구원 · 시그리카 · 릴리",
+      "start": "2026-11-12",
+      "end": "2026-12-03",
+      "note": "12:00 ~ 2026-12-03 10:59 (KST)",
+      "sources": [
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/5736"
+      ]
+    },
+    {
       "id": "auto-wuwa-version-3.8",
       "game": "wuwa",
       "type": "version",
@@ -369,18 +381,6 @@
       "note": "점검 시작 시각 (KST)",
       "sources": [
         "https://wutheringwaves.kurogames.com/kr/main/news/detail/5784"
-      ]
-    },
-    {
-      "id": "auto-wuwa-banner-2026-11-12-2026-12-03",
-      "game": "wuwa",
-      "type": "banner",
-      "title": "3.8 1차 픽업: 구원 · 시그리카 · 릴리",
-      "start": "2026-11-12",
-      "end": "2026-12-03",
-      "note": "12:00 ~ 2026-12-03 10:59 (KST)",
-      "sources": [
-        "https://wutheringwaves.kurogames.com/en/main/news/detail/5736"
       ]
     },
     {
@@ -398,22 +398,6 @@
   ],
   "broadcasts": [
     {
-      "id": "auto-b-hsr-4.7",
-      "game": "hsr",
-      "version": "4.7",
-      "title": "4.7 프리뷰 스페셜 프로그램 정보",
-      "date": "2026-10-30",
-      "time": "20:30",
-      "vod": "",
-      "summary": "〈붕괴: 스타레일〉 4.7 버전 「지금, 뭇별을 웃음으로」 프리뷰 스페셜 프로그램이 종료되었습니다. 신규 캐릭터, 신규 필드, 신규 이벤트가 곧 오픈되니 은하열차에 탑승해 새로운 모험 여정을 시작해 보세요!\n프리뷰 스페셜 프로그램 다시 보기:\n프리뷰 스페셜 프로그램 리딤코드:\nNEVERGONNAGIVE\nNEVERGONNAMAKE\nAHABLESSYOU",
-      "characters": [],
-      "content": [],
-      "codes": [],
-      "sources": [
-        "https://www.hoyolab.com/article/47252183"
-      ]
-    },
-    {
       "id": "auto-b-hsr-4.6",
       "game": "hsr",
       "version": "4.6",
@@ -427,6 +411,22 @@
       "codes": [],
       "sources": [
         "https://www.hoyolab.com/article/46763509"
+      ]
+    },
+    {
+      "id": "auto-b-hsr-4.7",
+      "game": "hsr",
+      "version": "4.7",
+      "title": "4.7 프리뷰 스페셜 프로그램 정보",
+      "date": "2026-10-30",
+      "time": "20:30",
+      "vod": "",
+      "summary": "〈붕괴: 스타레일〉 4.7 버전 「지금, 뭇별을 웃음으로」 프리뷰 스페셜 프로그램이 종료되었습니다. 신규 캐릭터, 신규 필드, 신규 이벤트가 곧 오픈되니 은하열차에 탑승해 새로운 모험 여정을 시작해 보세요!\n프리뷰 스페셜 프로그램 다시 보기:\n프리뷰 스페셜 프로그램 리딤코드:\nNEVERGONNAGIVE\nNEVERGONNAMAKE\nAHABLESSYOU",
+      "characters": [],
+      "content": [],
+      "codes": [],
+      "sources": [
+        "https://www.hoyolab.com/article/47252183"
       ]
     },
     {
@@ -449,48 +449,6 @@
   "codes": [
     {
       "game": "genshin",
-      "code": "NEEIJB764CA3",
-      "reward": "Primogem*60",
-      "expires": "",
-      "source": "hoyo-codes.seria.moe"
-    },
-    {
-      "game": "genshin",
-      "code": "NEEI8A8341OW",
-      "reward": "",
-      "expires": "",
-      "source": "hoyo-codes.seria.moe"
-    },
-    {
-      "game": "genshin",
-      "code": "Y6JYMKV6JKSL",
-      "reward": "Primogem*60, Adventurer's Experience*5",
-      "expires": "",
-      "source": "hoyo-codes.seria.moe"
-    },
-    {
-      "game": "genshin",
-      "code": "PNKZ3WLNN8G6",
-      "reward": "Teachings of Charity*5, Teachings of Fortitude*5, Teachings of Glory*5",
-      "expires": "",
-      "source": "hoyo-codes.seria.moe"
-    },
-    {
-      "game": "genshin",
-      "code": "PJ2KEBRAYSRM",
-      "reward": "Primogem*60, Adventurer's Experience*5",
-      "expires": "",
-      "source": "hoyo-codes.seria.moe"
-    },
-    {
-      "game": "genshin",
-      "code": "MIJIQ23V2437",
-      "reward": "Mora*10000, Adventurer's Experience*10, Fine Enhancement Ore*5, Stir-Fried Fish Noodles*5, Jueyun Chili Chicken*5",
-      "expires": "",
-      "source": "hoyo-codes.seria.moe"
-    },
-    {
-      "game": "genshin",
       "code": "CDOF4X83H7X2",
       "reward": "Mora*10000, Adventurer's Experience*10, Fine Enhancement Ore*5, Stir-Fried Fish Noodles*5, Jueyun Chili Chicken*5",
       "expires": "",
@@ -505,15 +463,50 @@
     },
     {
       "game": "genshin",
+      "code": "MIJIQ23V2437",
+      "reward": "Mora*10000, Adventurer's Experience*10, Fine Enhancement Ore*5, Stir-Fried Fish Noodles*5, Jueyun Chili Chicken*5",
+      "expires": "",
+      "source": "hoyo-codes.seria.moe"
+    },
+    {
+      "game": "genshin",
+      "code": "NEEI8A8341OW",
+      "reward": "",
+      "expires": "",
+      "source": "hoyo-codes.seria.moe"
+    },
+    {
+      "game": "genshin",
+      "code": "NEEIJB764CA3",
+      "reward": "Primogem*60",
+      "expires": "",
+      "source": "hoyo-codes.seria.moe"
+    },
+    {
+      "game": "genshin",
+      "code": "PJ2KEBRAYSRM",
+      "reward": "Primogem*60, Adventurer's Experience*5",
+      "expires": "",
+      "source": "hoyo-codes.seria.moe"
+    },
+    {
+      "game": "genshin",
+      "code": "PNKZ3WLNN8G6",
+      "reward": "Teachings of Charity*5, Teachings of Fortitude*5, Teachings of Glory*5",
+      "expires": "",
+      "source": "hoyo-codes.seria.moe"
+    },
+    {
+      "game": "genshin",
       "code": "QYJWFB784MFL",
       "reward": "Primogem*60, Adventurer's Experience*5",
       "expires": "",
       "source": "hoyo-codes.seria.moe"
     },
     {
-      "game": "hsr",
-      "code": "5S6ZHRWTDNJB",
-      "reward": "60 stellar jade",
+      "game": "genshin",
+      "code": "Y6JYMKV6JKSL",
+      "reward": "Primogem*60, Adventurer's Experience*5",
       "expires": "",
       "source": "hoyo-codes.seria.moe"
     },
@@ -526,28 +519,14 @@
     },
     {
       "game": "hsr",
-      "code": "STARRAILGIFT",
-      "reward": "50 stellar jade, 10k credits, two traveler’s guides, and five bottled soda",
+      "code": "5S6ZHRWTDNJB",
+      "reward": "60 stellar jade",
       "expires": "",
       "source": "hoyo-codes.seria.moe"
     },
     {
       "game": "hsr",
-      "code": "IFYOUAREREADINGTHIS",
-      "reward": "60 stellar jade and one fuel",
-      "expires": "",
-      "source": "hoyo-codes.seria.moe"
-    },
-    {
-      "game": "hsr",
-      "code": "FAREWELL",
-      "reward": "60 stellar jade and one fuel",
-      "expires": "",
-      "source": "hoyo-codes.seria.moe"
-    },
-    {
-      "game": "hsr",
-      "code": "CTK5DRQVT48F",
+      "code": "AEONAHA",
       "reward": "",
       "expires": "",
       "source": "hoyo-codes.seria.moe"
@@ -561,15 +540,22 @@
     },
     {
       "game": "hsr",
-      "code": "OMEGA",
+      "code": "CTK5DRQVT48F",
+      "reward": "",
+      "expires": "",
+      "source": "hoyo-codes.seria.moe"
+    },
+    {
+      "game": "hsr",
+      "code": "FAREWELL",
       "reward": "60 stellar jade and one fuel",
       "expires": "",
       "source": "hoyo-codes.seria.moe"
     },
     {
       "game": "hsr",
-      "code": "AEONAHA",
-      "reward": "",
+      "code": "IFYOUAREREADINGTHIS",
+      "reward": "60 stellar jade and one fuel",
       "expires": "",
       "source": "hoyo-codes.seria.moe"
     },
@@ -581,11 +567,25 @@
       "source": "hoyo-codes.seria.moe"
     },
     {
-      "game": "zzz",
-      "code": "ZENLESSGIFT",
-      "reward": "50 polychrome, two official investigator logs, three w-engine power supplies, and one bangboo algorithm module",
+      "game": "hsr",
+      "code": "OMEGA",
+      "reward": "60 stellar jade and one fuel",
       "expires": "",
       "source": "hoyo-codes.seria.moe"
+    },
+    {
+      "game": "hsr",
+      "code": "STARRAILGIFT",
+      "reward": "50 stellar jade, 10k credits, two traveler’s guides, and five bottled soda",
+      "expires": "",
+      "source": "hoyo-codes.seria.moe"
+    },
+    {
+      "game": "wuwa",
+      "code": "WUTHERINGGIFT",
+      "reward": "Astrite*50, Premium Resonance Potion*2, Medium Revival Inhaler*2, Medium Energy Bag*2, Shell Credit*10000",
+      "expires": "",
+      "source": "wutheringwaves.fandom.com"
     },
     {
       "game": "zzz",
@@ -609,11 +609,11 @@
       "source": "hoyo-codes.seria.moe"
     },
     {
-      "game": "wuwa",
-      "code": "WUTHERINGGIFT",
-      "reward": "Astrite*50, Premium Resonance Potion*2, Medium Revival Inhaler*2, Medium Energy Bag*2, Shell Credit*10000",
+      "game": "zzz",
+      "code": "ZENLESSGIFT",
+      "reward": "50 polychrome, two official investigator logs, three w-engine power supplies, and one bangboo algorithm module",
       "expires": "",
-      "source": "wutheringwaves.fandom.com"
+      "source": "hoyo-codes.seria.moe"
     }
   ],
   "news": [
@@ -637,9 +637,9 @@
     },
     {
       "game": "hsr",
-      "title": "[보상 이벤트] 에이언즈★아하 공략 토론 이벤트",
+      "title": "강적 정찰 너굴 노트 | 탐환의 신의 머리",
       "date": "2026-11-13",
-      "url": "https://www.hoyolab.com/article/47425538"
+      "url": "https://www.hoyolab.com/article/47424584"
     },
     {
       "game": "hsr",
@@ -649,21 +649,15 @@
     },
     {
       "game": "hsr",
-      "title": "강적 정찰 너굴 노트 | 탐환의 신의 머리",
+      "title": "[보상 이벤트] 에이언즈★아하 공략 토론 이벤트",
       "date": "2026-11-13",
-      "url": "https://www.hoyolab.com/article/47424584"
+      "url": "https://www.hoyolab.com/article/47425538"
     },
     {
       "game": "zzz",
-      "title": "Zenless Zone Zero × Discord｜로프넷 연례 꾸미기 대회",
+      "title": "Zenless Zone Zero X Discord",
       "date": "2026-11-13",
-      "url": "https://www.hoyolab.com/article/47428577"
-    },
-    {
-      "game": "zzz",
-      "title": "「복원하자! 표류 화집」 이벤트 설명",
-      "date": "2026-11-13",
-      "url": "https://www.hoyolab.com/article/47424979"
+      "url": "https://www.hoyolab.com/article/47421386"
     },
     {
       "game": "zzz",
@@ -673,9 +667,15 @@
     },
     {
       "game": "zzz",
-      "title": "Zenless Zone Zero X Discord",
+      "title": "「복원하자! 표류 화집」 이벤트 설명",
       "date": "2026-11-13",
-      "url": "https://www.hoyolab.com/article/47421386"
+      "url": "https://www.hoyolab.com/article/47424979"
+    },
+    {
+      "game": "zzz",
+      "title": "Zenless Zone Zero × Discord｜로프넷 연례 꾸미기 대회",
+      "date": "2026-11-13",
+      "url": "https://www.hoyolab.com/article/47428577"
     },
     {
       "game": "genshin",
@@ -685,15 +685,9 @@
     },
     {
       "game": "hsr",
-      "title": "「이상 낙원」 신규 OST ≪신이 이르시되, 웃음이 있으라(하편)≫ 정식 출시",
+      "title": "5.5 버전 | 이야기의 밖에 아직 누가 있을까",
       "date": "2026-11-12",
-      "url": "https://www.hoyolab.com/article/47414506"
-    },
-    {
-      "game": "hsr",
-      "title": "「이상 낙원」 아홉 칸의 메아리: 칸을 이어 선을 만들고, 추억으로 성옥을 획득하자!",
-      "date": "2026-11-12",
-      "url": "https://www.hoyolab.com/article/47413545"
+      "url": "https://www.hoyolab.com/article/47413033"
     },
     {
       "game": "hsr",
@@ -703,15 +697,15 @@
     },
     {
       "game": "hsr",
-      "title": "5.5 버전 | 이야기의 밖에 아직 누가 있을까",
+      "title": "「이상 낙원」 아홉 칸의 메아리: 칸을 이어 선을 만들고, 추억으로 성옥을 획득하자!",
       "date": "2026-11-12",
-      "url": "https://www.hoyolab.com/article/47413033"
+      "url": "https://www.hoyolab.com/article/47413545"
     },
     {
-      "game": "zzz",
-      "title": "🎁[보상 이벤트] 세베리안의 선물",
+      "game": "hsr",
+      "title": "「이상 낙원」 신규 OST ≪신이 이르시되, 웃음이 있으라(하편)≫ 정식 출시",
       "date": "2026-11-12",
-      "url": "https://www.hoyolab.com/article/47413472"
+      "url": "https://www.hoyolab.com/article/47414506"
     },
     {
       "game": "wuwa",
@@ -721,15 +715,21 @@
     },
     {
       "game": "zzz",
-      "title": "니콜, 생일 축하해 | 폐가전 수거는 어디로",
-      "date": "2026-11-11",
-      "url": "https://www.hoyolab.com/article/47396584"
+      "title": "🎁[보상 이벤트] 세베리안의 선물",
+      "date": "2026-11-12",
+      "url": "https://www.hoyolab.com/article/47413472"
     },
     {
       "game": "zzz",
       "title": "다시 하늘을 향해 | 3.3 버전 콘텐츠 미리보기(하반기)",
       "date": "2026-11-11",
       "url": "https://www.hoyolab.com/article/47396372"
+    },
+    {
+      "game": "zzz",
+      "title": "니콜, 생일 축하해 | 폐가전 수거는 어디로",
+      "date": "2026-11-11",
+      "url": "https://www.hoyolab.com/article/47396584"
     },
     {
       "game": "zzz",
@@ -787,21 +787,15 @@
     },
     {
       "game": "wuwa",
-      "title": "[노을에 깃든 이슬] 무기 이벤트 튜닝",
-      "date": "2026-07-29",
-      "url": "https://wutheringwaves.kurogames.com/kr/main/news/detail/5238"
-    },
-    {
-      "game": "wuwa",
       "title": "[단비에서 전하는 연꽃 바람의 축복] 캐릭터 이벤트 튜닝",
       "date": "2026-07-29",
       "url": "https://wutheringwaves.kurogames.com/kr/main/news/detail/5229"
     },
     {
       "game": "wuwa",
-      "title": "「남겨진 울림, 검에 기대 꿈속에서 노래하리」 3.5 버전 업데이트 내용 안내",
-      "date": "2026-07-10",
-      "url": "https://wutheringwaves.kurogames.com/kr/main/news/detail/5122"
+      "title": "[노을에 깃든 이슬] 무기 이벤트 튜닝",
+      "date": "2026-07-29",
+      "url": "https://wutheringwaves.kurogames.com/kr/main/news/detail/5238"
     },
     {
       "game": "wuwa",
@@ -811,15 +805,15 @@
     },
     {
       "game": "wuwa",
-      "title": "[울림에 새겨진 추억] 여정이 남긴 무기 튜닝",
-      "date": "2026-07-09",
-      "url": "https://wutheringwaves.kurogames.com/kr/main/news/detail/5078"
+      "title": "「남겨진 울림, 검에 기대 꿈속에서 노래하리」 3.5 버전 업데이트 내용 안내",
+      "date": "2026-07-10",
+      "url": "https://wutheringwaves.kurogames.com/kr/main/news/detail/5122"
     },
     {
       "game": "wuwa",
-      "title": "[여정이 남긴 울림] 여정이 남긴 캐릭터 튜닝",
+      "title": "[깃털에 실은 만물의 소리] 캐릭터 이벤트 튜닝",
       "date": "2026-07-09",
-      "url": "https://wutheringwaves.kurogames.com/kr/main/news/detail/5069"
+      "url": "https://wutheringwaves.kurogames.com/kr/main/news/detail/5049"
     },
     {
       "game": "wuwa",
@@ -829,16 +823,18 @@
     },
     {
       "game": "wuwa",
-      "title": "[깃털에 실은 만물의 소리] 캐릭터 이벤트 튜닝",
+      "title": "[여정이 남긴 울림] 여정이 남긴 캐릭터 튜닝",
       "date": "2026-07-09",
-      "url": "https://wutheringwaves.kurogames.com/kr/main/news/detail/5049"
+      "url": "https://wutheringwaves.kurogames.com/kr/main/news/detail/5069"
+    },
+    {
+      "game": "wuwa",
+      "title": "[울림에 새겨진 추억] 여정이 남긴 무기 튜닝",
+      "date": "2026-07-09",
+      "url": "https://wutheringwaves.kurogames.com/kr/main/news/detail/5078"
     }
   ],
   "cycles": {
-    "wuwa": {
-      "anchorVersion": "3.8",
-      "anchorDate": "2026-11-12"
-    },
     "genshin": {
       "anchorVersion": "7.2",
       "anchorDate": "2026-11-04"
@@ -846,21 +842,25 @@
     "hsr": {
       "anchorVersion": "4.7",
       "anchorDate": "2026-11-11"
+    },
+    "wuwa": {
+      "anchorVersion": "3.8",
+      "anchorDate": "2026-11-12"
     }
   },
   "wuwaNames": {
+    "Chisa": "치사",
     "Hiyuki": "히유키",
-    "Suisui": "수수",
-    "Yangyang: Xuanling": "양양·현령",
-    "Qiuyuan": "구원",
-    "Sigrika": "시그리카",
+    "Hsin": "여우의별자리",
+    "Iuno": "유노",
     "Lily": "릴리",
     "Lucilla": "루실라",
     "Lynae": "린네",
+    "Qiuyuan": "구원",
+    "Sigrika": "시그리카",
+    "Suisui": "수수",
     "Suoming": "쇄명",
-    "Iuno": "유노",
-    "Chisa": "치사",
-    "Hsin": "여우의별자리"
+    "Yangyang: Xuanling": "양양·현령"
   },
-  "updatedAt": "2026-11-15T03:34:25.590Z"
+  "updatedAt": "2026-11-15T03:35:49.552Z"
 }
