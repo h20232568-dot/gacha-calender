@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>서브컬처 게임 캘린더</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="top">
+    <h1>🗓️ 서브컬처 게임 캘린더</h1>
+    <nav>
+      <button data-view="calendar">캘린더</button>
+      <button data-view="broadcasts">방송 요약</button>
+      <button data-view="codes">리딤코드</button>
+      <button data-view="admin">관리</button>
+    </nav>
+  </header>
+  <div id="filters" class="filters"></div>
+  <div class="layout">
+    <main id="main"></main>
+    <aside id="side"></aside>
+  </div>
+  <footer class="foot">원신 · 붕괴: 스타레일 · 젠레스 존 제로 · 명조 — 팬 제작 비공식 일정 정리 사이트. 모든 게임 관련 상표는 각 권리자에게 있습니다.</footer>
+  <dialog id="modal"><div class="body"></div></dialog>
+  <div id="toast"></div>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
