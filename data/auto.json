@@ -1,7 +1,575 @@
 {
-  "events": [],
-  "broadcasts": [],
-  "codes": [],
-  "cycles": {},
-  "updatedAt": null
+  "events": [
+    {
+      "id": "auto-hsr-broadcast-4.6",
+      "game": "hsr",
+      "type": "broadcast",
+      "title": "4.6 버전 특별 방송",
+      "start": "2026-09-20",
+      "end": "2026-09-20",
+      "note": "HoYoLAB 프리뷰 토론실 게시일 기준",
+      "sources": [
+        "https://www.hoyolab.com/article/46763050"
+      ]
+    },
+    {
+      "id": "auto-genshin-version-7.1",
+      "game": "genshin",
+      "type": "version",
+      "title": "7.1 「죽음의 진혼곡」 업데이트",
+      "start": "2026-09-23",
+      "end": "2026-09-23",
+      "time": "07:00",
+      "note": "점검 시작 시각 (KST)",
+      "sources": [
+        "https://www.hoyolab.com/article/46771203"
+      ]
+    },
+    {
+      "id": "auto-hsr-version-4.6",
+      "game": "hsr",
+      "type": "version",
+      "title": "4.6 「달 뜨기 전, 괴수와 춤을」 업데이트",
+      "start": "2026-09-28",
+      "end": "2026-09-28",
+      "time": "07:00",
+      "note": "점검 시작 시각 (KST)",
+      "sources": [
+        "https://www.hoyolab.com/article/46814308"
+      ]
+    },
+    {
+      "id": "auto-hsr-banner-2026-09-28-2026-11-10",
+      "game": "hsr",
+      "type": "banner",
+      "title": "4.6 1차 픽업: 펄",
+      "start": "2026-09-28",
+      "end": "2026-11-10",
+      "note": "종료 2026-11-10 16:00 (KST)",
+      "sources": [
+        "https://www.hoyolab.com/article/47142215"
+      ]
+    },
+    {
+      "id": "auto-hsr-banner-2026-09-28-2026-10-21",
+      "game": "hsr",
+      "type": "banner",
+      "title": "4.6 1차 픽업: 에바네시아",
+      "start": "2026-09-28",
+      "end": "2026-10-21",
+      "note": "종료 2026-10-21 12:59 (KST)",
+      "sources": [
+        "https://www.hoyolab.com/article/46851682"
+      ]
+    },
+    {
+      "id": "auto-zzz-banner-2026-09-30-2026-10-20",
+      "game": "zzz",
+      "type": "banner",
+      "title": "3.2 2차 픽업: 록시 · 프로미아",
+      "start": "2026-09-30",
+      "end": "2026-10-20",
+      "note": "종료 2026-10-20 15:59 (KST)",
+      "sources": [
+        "https://www.hoyolab.com/article/46863847"
+      ]
+    },
+    {
+      "id": "auto-wuwa-banner-2026-09-30-2026-10-22",
+      "game": "wuwa",
+      "type": "banner",
+      "title": "픽업: Iuno · Chisa · Hsin",
+      "start": "2026-09-30",
+      "end": "2026-10-22",
+      "note": "12:00 ~ 2026-10-22 10:59 (KST) · 이름은 위키 영문 표기",
+      "sources": [
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/5546"
+      ]
+    },
+    {
+      "id": "auto-hsr-banner-2026-10-21-2026-11-10",
+      "game": "hsr",
+      "type": "banner",
+      "title": "4.6 2차 픽업: 천야•블레이드",
+      "start": "2026-10-21",
+      "end": "2026-11-10",
+      "note": "종료 2026-11-10 16:00 (KST)",
+      "sources": [
+        "https://www.hoyolab.com/article/47142215"
+      ]
+    },
+    {
+      "id": "auto-zzz-banner-2026-10-21-2026-11-11",
+      "game": "zzz",
+      "type": "banner",
+      "title": "3.3 1차 픽업: 피닉스 · 벨리나",
+      "start": "2026-10-21",
+      "end": "2026-11-11",
+      "note": "종료 2026-11-11 12:59 (KST)",
+      "sources": [
+        "https://www.hoyolab.com/article/47131668"
+      ]
+    },
+    {
+      "id": "auto-wuwa-banner-2026-10-22-2026-11-11",
+      "game": "wuwa",
+      "type": "banner",
+      "title": "픽업: Lucilla · Lynae · Suoming",
+      "start": "2026-10-22",
+      "end": "2026-11-11",
+      "note": "11:00 ~ 2026-11-11 12:59 (KST) · 이름은 위키 영문 표기",
+      "sources": [
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/5668"
+      ]
+    },
+    {
+      "id": "auto-hsr-broadcast-4.7",
+      "game": "hsr",
+      "type": "broadcast",
+      "title": "4.7 버전 특별 방송",
+      "start": "2026-10-30",
+      "end": "2026-10-30",
+      "note": "HoYoLAB 프리뷰 토론실 게시일 기준",
+      "sources": [
+        "https://www.hoyolab.com/article/47251829"
+      ]
+    },
+    {
+      "id": "auto-genshin-version-7.2",
+      "game": "genshin",
+      "type": "version",
+      "title": "7.2 「종말의 서막」 업데이트",
+      "start": "2026-11-04",
+      "end": "2026-11-04",
+      "time": "07:00",
+      "note": "점검 시작 시각 (KST)",
+      "sources": [
+        "https://www.hoyolab.com/article/47283828"
+      ]
+    },
+    {
+      "id": "auto-genshin-banner-2026-11-04-2026-11-24",
+      "game": "genshin",
+      "type": "banner",
+      "title": "7.2 1차 픽업: 미탸 · 푸리나",
+      "start": "2026-11-04",
+      "end": "2026-11-24",
+      "note": "종료 2026-11-24 19:59 (KST)",
+      "sources": [
+        "https://www.hoyolab.com/article/47284168"
+      ]
+    },
+    {
+      "id": "auto-hsr-version-4.7",
+      "game": "hsr",
+      "type": "version",
+      "title": "4.7 「지금, 뭇별을 웃음으로」 업데이트",
+      "start": "2026-11-11",
+      "end": "2026-11-11",
+      "time": "07:00",
+      "note": "점검 시작 시각 (KST)",
+      "sources": [
+        "https://www.hoyolab.com/article/47375930"
+      ]
+    },
+    {
+      "id": "auto-hsr-banner-2026-11-11-2026-12-22",
+      "game": "hsr",
+      "type": "banner",
+      "title": "4.7 1차 픽업: 에이언즈★아하",
+      "start": "2026-11-11",
+      "end": "2026-12-22",
+      "note": "종료 2026-12-22 16:00 (KST)",
+      "sources": [
+        "https://www.hoyolab.com/article/47385253"
+      ]
+    },
+    {
+      "id": "auto-hsr-banner-2026-11-11-2026-12-02",
+      "game": "hsr",
+      "type": "banner",
+      "title": "4.7 1차 픽업: 은랑 LV.999 · 스파키 · 효광",
+      "start": "2026-11-11",
+      "end": "2026-12-02",
+      "note": "종료 2026-12-02 12:59 (KST)",
+      "sources": [
+        "https://www.hoyolab.com/article/47385253"
+      ]
+    },
+    {
+      "id": "auto-zzz-banner-2026-11-11-2026-12-01",
+      "game": "zzz",
+      "type": "banner",
+      "title": "3.3 2차 픽업: 세베리안 · 노르마",
+      "start": "2026-11-11",
+      "end": "2026-12-01",
+      "note": "종료 2026-12-01 15:59 (KST)",
+      "sources": [
+        "https://www.hoyolab.com/article/47375931"
+      ]
+    },
+    {
+      "id": "auto-hsr-collab-47412533",
+      "game": "hsr",
+      "type": "collab",
+      "title": "레이저 | 스타레일 콜라보 시리즈 정식 출시",
+      "start": "2026-11-12",
+      "end": "2026-11-12",
+      "note": "공지 게시일 기준",
+      "sources": [
+        "https://www.hoyolab.com/article/47412533"
+      ]
+    },
+    {
+      "id": "auto-wuwa-banner-2026-11-12-2026-12-03",
+      "game": "wuwa",
+      "type": "banner",
+      "title": "픽업: Qiuyuan · Sigrika · Lily",
+      "start": "2026-11-12",
+      "end": "2026-12-03",
+      "note": "12:00 ~ 2026-12-03 10:59 (KST) · 이름은 위키 영문 표기",
+      "sources": [
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/5736"
+      ]
+    },
+    {
+      "id": "auto-wuwa-banner-2026-12-03-2026-12-21",
+      "game": "wuwa",
+      "type": "banner",
+      "title": "픽업: Hiyuki · Suisui · Yangyang: Xuanling",
+      "start": "2026-12-03",
+      "end": "2026-12-21",
+      "note": "11:00 ~ 2026-12-21 04:59 (KST) · 이름은 위키 영문 표기",
+      "sources": [
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/5736"
+      ]
+    }
+  ],
+  "codes": [
+    {
+      "game": "genshin",
+      "code": "NEEIJB764CA3",
+      "reward": "Primogem*60",
+      "expires": "",
+      "source": "hoyo-codes.seria.moe"
+    },
+    {
+      "game": "genshin",
+      "code": "NEEI8A8341OW",
+      "reward": "",
+      "expires": "",
+      "source": "hoyo-codes.seria.moe"
+    },
+    {
+      "game": "genshin",
+      "code": "Y6JYMKV6JKSL",
+      "reward": "Primogem*60, Adventurer's Experience*5",
+      "expires": "",
+      "source": "hoyo-codes.seria.moe"
+    },
+    {
+      "game": "genshin",
+      "code": "PNKZ3WLNN8G6",
+      "reward": "Teachings of Charity*5, Teachings of Fortitude*5, Teachings of Glory*5",
+      "expires": "",
+      "source": "hoyo-codes.seria.moe"
+    },
+    {
+      "game": "genshin",
+      "code": "PJ2KEBRAYSRM",
+      "reward": "Primogem*60, Adventurer's Experience*5",
+      "expires": "",
+      "source": "hoyo-codes.seria.moe"
+    },
+    {
+      "game": "genshin",
+      "code": "MIJIQ23V2437",
+      "reward": "Mora*10000, Adventurer's Experience*10, Fine Enhancement Ore*5, Stir-Fried Fish Noodles*5, Jueyun Chili Chicken*5",
+      "expires": "",
+      "source": "hoyo-codes.seria.moe"
+    },
+    {
+      "game": "genshin",
+      "code": "CDOF4X83H7X2",
+      "reward": "Mora*10000, Adventurer's Experience*10, Fine Enhancement Ore*5, Stir-Fried Fish Noodles*5, Jueyun Chili Chicken*5",
+      "expires": "",
+      "source": "hoyo-codes.seria.moe"
+    },
+    {
+      "game": "genshin",
+      "code": "KEEPUPWITHMITYA",
+      "reward": "Guide to Charity*3, \"Energy-Replenishing Meal\"*3, Kristallfold*3",
+      "expires": "",
+      "source": "hoyo-codes.seria.moe"
+    },
+    {
+      "game": "genshin",
+      "code": "QYJWFB784MFL",
+      "reward": "Primogem*60, Adventurer's Experience*5",
+      "expires": "",
+      "source": "hoyo-codes.seria.moe"
+    },
+    {
+      "game": "hsr",
+      "code": "5S6ZHRWTDNJB",
+      "reward": "60 stellar jade",
+      "expires": "",
+      "source": "hoyo-codes.seria.moe"
+    },
+    {
+      "game": "hsr",
+      "code": "4TKSX77Y58QK",
+      "reward": "30 stellar jade, three traveler’s guides, five condensed aether, four lost gold fragments, and 20k credits",
+      "expires": "",
+      "source": "hoyo-codes.seria.moe"
+    },
+    {
+      "game": "hsr",
+      "code": "STARRAILGIFT",
+      "reward": "50 stellar jade, 10k credits, two traveler’s guides, and five bottled soda",
+      "expires": "",
+      "source": "hoyo-codes.seria.moe"
+    },
+    {
+      "game": "hsr",
+      "code": "IFYOUAREREADINGTHIS",
+      "reward": "60 stellar jade and one fuel",
+      "expires": "",
+      "source": "hoyo-codes.seria.moe"
+    },
+    {
+      "game": "hsr",
+      "code": "FAREWELL",
+      "reward": "60 stellar jade and one fuel",
+      "expires": "",
+      "source": "hoyo-codes.seria.moe"
+    },
+    {
+      "game": "hsr",
+      "code": "CTK5DRQVT48F",
+      "reward": "",
+      "expires": "",
+      "source": "hoyo-codes.seria.moe"
+    },
+    {
+      "game": "hsr",
+      "code": "CREATIONNYMPH",
+      "reward": "60 stellar jade and one fuel",
+      "expires": "",
+      "source": "hoyo-codes.seria.moe"
+    },
+    {
+      "game": "hsr",
+      "code": "OMEGA",
+      "reward": "60 stellar jade and one fuel",
+      "expires": "",
+      "source": "hoyo-codes.seria.moe"
+    },
+    {
+      "game": "hsr",
+      "code": "AEONAHA",
+      "reward": "",
+      "expires": "",
+      "source": "hoyo-codes.seria.moe"
+    },
+    {
+      "game": "hsr",
+      "code": "NS4DU8AAGXBP",
+      "reward": "",
+      "expires": "",
+      "source": "hoyo-codes.seria.moe"
+    },
+    {
+      "game": "zzz",
+      "code": "ZENLESSGIFT",
+      "reward": "50 polychrome, two official investigator logs, three w-engine power supplies, and one bangboo algorithm module",
+      "expires": "",
+      "source": "hoyo-codes.seria.moe"
+    },
+    {
+      "game": "zzz",
+      "code": "HOLLOWRUN33",
+      "reward": "Polychrome*20, Denny*2,222",
+      "expires": "",
+      "source": "hoyo-codes.seria.moe"
+    },
+    {
+      "game": "zzz",
+      "code": "INKSHIFT33",
+      "reward": "Polychrome*20, Denny*2,222",
+      "expires": "",
+      "source": "hoyo-codes.seria.moe"
+    },
+    {
+      "game": "zzz",
+      "code": "LEVELUP33",
+      "reward": "Polychrome*20, Denny*2,222",
+      "expires": "",
+      "source": "hoyo-codes.seria.moe"
+    },
+    {
+      "game": "wuwa",
+      "code": "WUTHERINGGIFT",
+      "reward": "Astrite*50, Premium Resonance Potion*2, Medium Revival Inhaler*2, Medium Energy Bag*2, Shell Credit*10000",
+      "expires": "",
+      "source": "wutheringwaves.fandom.com"
+    }
+  ],
+  "news": [
+    {
+      "game": "genshin",
+      "title": "원신 | 스토리 PV-「온 땅에 내려진 자애」",
+      "date": "2026-11-14",
+      "url": "https://www.hoyolab.com/article/47436368"
+    },
+    {
+      "game": "hsr",
+      "title": "낙원에 온 걸 환영해 | 스타프로스터에서 온 초청장",
+      "date": "2026-11-14",
+      "url": "https://www.hoyolab.com/article/47436372"
+    },
+    {
+      "game": "genshin",
+      "title": "원신 | 애니메이션 컷신-「번개와 영원」",
+      "date": "2026-11-13",
+      "url": "https://www.hoyolab.com/article/47424977"
+    },
+    {
+      "game": "hsr",
+      "title": "[보상 이벤트] 에이언즈★아하 공략 토론 이벤트",
+      "date": "2026-11-13",
+      "url": "https://www.hoyolab.com/article/47425538"
+    },
+    {
+      "game": "hsr",
+      "title": "운명의 마술",
+      "date": "2026-11-13",
+      "url": "https://www.hoyolab.com/article/47424980"
+    },
+    {
+      "game": "hsr",
+      "title": "강적 정찰 너굴 노트 | 탐환의 신의 머리",
+      "date": "2026-11-13",
+      "url": "https://www.hoyolab.com/article/47424584"
+    },
+    {
+      "game": "zzz",
+      "title": "Zenless Zone Zero × Discord｜로프넷 연례 꾸미기 대회",
+      "date": "2026-11-13",
+      "url": "https://www.hoyolab.com/article/47428577"
+    },
+    {
+      "game": "zzz",
+      "title": "「복원하자! 표류 화집」 이벤트 설명",
+      "date": "2026-11-13",
+      "url": "https://www.hoyolab.com/article/47424979"
+    },
+    {
+      "game": "zzz",
+      "title": "Zenless Zone Zero × Discord 테마 장식 소개",
+      "date": "2026-11-13",
+      "url": "https://www.hoyolab.com/article/47421484"
+    },
+    {
+      "game": "zzz",
+      "title": "Zenless Zone Zero X Discord",
+      "date": "2026-11-13",
+      "url": "https://www.hoyolab.com/article/47421386"
+    },
+    {
+      "game": "genshin",
+      "title": "원신 | 애니메이션 컷신-「바위와 계약」",
+      "date": "2026-11-12",
+      "url": "https://www.hoyolab.com/article/47413470"
+    },
+    {
+      "game": "hsr",
+      "title": "「이상 낙원」 신규 OST ≪신이 이르시되, 웃음이 있으라(하편)≫ 정식 출시",
+      "date": "2026-11-12",
+      "url": "https://www.hoyolab.com/article/47414506"
+    },
+    {
+      "game": "hsr",
+      "title": "「이상 낙원」 아홉 칸의 메아리: 칸을 이어 선을 만들고, 추억으로 성옥을 획득하자!",
+      "date": "2026-11-12",
+      "url": "https://www.hoyolab.com/article/47413545"
+    },
+    {
+      "game": "hsr",
+      "title": "〈붕괴: 스타레일〉 EP: 「무로부터의 창조」",
+      "date": "2026-11-12",
+      "url": "https://www.hoyolab.com/article/47413467"
+    },
+    {
+      "game": "hsr",
+      "title": "5.5 버전 | 이야기의 밖에 아직 누가 있을까",
+      "date": "2026-11-12",
+      "url": "https://www.hoyolab.com/article/47413033"
+    },
+    {
+      "game": "zzz",
+      "title": "🎁[보상 이벤트] 세베리안의 선물",
+      "date": "2026-11-12",
+      "url": "https://www.hoyolab.com/article/47413472"
+    },
+    {
+      "game": "zzz",
+      "title": "니콜, 생일 축하해 | 폐가전 수거는 어디로",
+      "date": "2026-11-11",
+      "url": "https://www.hoyolab.com/article/47396584"
+    },
+    {
+      "game": "zzz",
+      "title": "다시 하늘을 향해 | 3.3 버전 콘텐츠 미리보기(하반기)",
+      "date": "2026-11-11",
+      "url": "https://www.hoyolab.com/article/47396372"
+    },
+    {
+      "game": "zzz",
+      "title": "3.3 버전 「상점」 업데이트 안내",
+      "date": "2026-11-10",
+      "url": "https://www.hoyolab.com/article/47385589"
+    },
+    {
+      "game": "genshin",
+      "title": "「지맥 제압전」 이벤트: 혼돈의 지맥을 향한 도전",
+      "date": "2026-11-09",
+      "url": "https://www.hoyolab.com/article/47375132"
+    },
+    {
+      "game": "genshin",
+      "title": "미탸 고문 관찰 기록",
+      "date": "2026-11-08",
+      "url": "https://www.hoyolab.com/article/47363693"
+    },
+    {
+      "game": "genshin",
+      "title": "격식 속에 감춘 칼날",
+      "date": "2026-11-07",
+      "url": "https://www.hoyolab.com/article/47351623"
+    },
+    {
+      "game": "genshin",
+      "title": "여명을 밝히는 심판의 서리",
+      "date": "2026-11-06",
+      "url": "https://www.hoyolab.com/article/47339559"
+    },
+    {
+      "game": "genshin",
+      "title": "「땅 신성화」 현상 확산, 7개국 대표 스네즈나야에 집결",
+      "date": "2026-11-04",
+      "url": "https://www.hoyolab.com/article/47314817"
+    }
+  ],
+  "cycles": {
+    "genshin": {
+      "anchorVersion": "7.2",
+      "anchorDate": "2026-11-04"
+    },
+    "hsr": {
+      "anchorVersion": "4.7",
+      "anchorDate": "2026-11-11"
+    }
+  },
+  "updatedAt": "2026-11-15T03:15:01.740Z"
 }

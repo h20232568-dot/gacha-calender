@@ -2,7 +2,7 @@ import { GAMES, EVENT_TYPES, DEFAULT_CYCLES, EVENTS, BROADCASTS, CODES } from ".
 
 /* ============================ 자동 수집 데이터 ============================ */
 // data/auto.json: GitHub Actions(scripts/collect.mjs)가 주기적으로 갱신. 없으면 무시.
-let AUTO = { events: [], broadcasts: [], codes: [], cycles: {}, updatedAt: null };
+let AUTO = { events: [], broadcasts: [], codes: [], news: [], cycles: {}, updatedAt: null };
 try {
   const res = await fetch("data/auto.json", { cache: "no-cache" });
   if (res.ok) AUTO = { ...AUTO, ...(await res.json()) };
@@ -119,7 +119,7 @@ function savePrefs() {
 }
 
 function visibleEvents() {
-  const confirmed = [...allEvents(), ...broadcastEvents()];
+  const confirmed = dedupeAuto([...allEvents(), ...broadcastEvents()]);
   const list = state.showEstimated ? [...confirmed, ...projectedEvents(confirmed)] : confirmed;
   return list
     .filter((e) => state.games.has(e.game) && state.types.has(e.type))
@@ -231,11 +231,16 @@ function renderSidebar() {
     </section>
     <section class="card">
       <h3>🎁 사용 가능한 리딤코드</h3>
-      ${codes.length ? codes.map(codeRow).join("") : `<p class="empty">현재 유효한 코드가 없습니다.</p>`}
+      ${codes.length ? codes.slice(0, 5).map(codeRow).join("") : `<p class="empty">현재 유효한 코드가 없습니다.</p>`}
+      ${codes.length > 5 ? `<button class="btn sm ghost" id="allCodes">전체 ${codes.length}개 보기 →</button>` : ""}
     </section>`;
-  if (AUTO.updatedAt) $("#side").insertAdjacentHTML("beforeend", `<p class="hint">🤖 자동 수집 마지막 갱신: ${esc(AUTO.updatedAt.replace("T", " ").slice(0, 16))} (UTC)</p>`);
+  const news = (AUTO.news || []).filter((n) => state.games.has(n.game)).slice(0, 10);
+  if (news.length) $("#side").insertAdjacentHTML("beforeend", `<section class="card"><h3>📰 공식 공지 <small>(HoYoLAB)</small></h3>
+    <ul class="news">${news.map((n) => `<li>${gameBadge(n.game)} <a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title)}</a><small>${esc(n.date.slice(5).replace("-", "/"))}</small></li>`).join("")}</ul></section>`);
+  if (AUTO.updatedAt) $("#side").insertAdjacentHTML("beforeend", `<p class="hint">🤖 자동 수집 마지막 갱신: ${esc(new Date(AUTO.updatedAt).toLocaleString("ko-KR", { timeZone: "Asia/Seoul" }))}</p>`);
   $("#side").querySelectorAll("[data-ev]").forEach((b) => (b.onclick = () => openEvent(b.dataset.ev)));
   bindCodeButtons($("#side"));
+  $("#allCodes") && ($("#allCodes").onclick = () => { state.view = "codes"; render(); window.scrollTo(0, 0); });
 }
 
 const sourceLinks = (arr) => (arr || []).map((u, i) => {
@@ -365,10 +370,14 @@ function renderAdmin() {
         <label class="wide">📝 원문 붙여넣기 <small>(공지/기사/방송 메모를 붙여넣고 "자동 정리"를 누르면 리딤코드와 항목을 추출합니다)</small>
           <textarea id="raw" rows="4" placeholder="방송 내용, 공지문 등을 붙여넣기"></textarea></label>
         <div class="wide row">
-          <button type="button" class="btn" id="aiSum">🤖 AI 요약 (Claude)</button>
-          <button type="button" class="btn ghost" id="parseRaw">✨ 간단 정리 (오프라인)</button>
-          <input id="adminToken" type="password" placeholder="관리자 토큰 (설정한 경우)" style="width:200px">
-          <span class="hint" id="aiStatus"></span>
+          <button type="button" class="btn ghost" id="parseRaw">✨ 간단 정리 (바로 적용)</button>
+          <button type="button" class="btn" id="copyPrompt">📋 AI 요약용 프롬프트 복사</button>
+          <span class="hint">→ Claude·ChatGPT 등 무료 채팅에 붙여넣고, 받은 답변을 아래에 붙여넣으세요</span>
+        </div>
+        <div class="wide ai-box">
+          <label>🤖 AI 답변 붙여넣기 <small>(JSON 형식 답변 그대로)</small>
+            <textarea id="aiJson" rows="3" placeholder='{"version": "7.3", "title": "...", ...}'></textarea></label>
+          <div class="row"><button type="button" class="btn sm" id="applyJson">답변 적용</button><span class="hint" id="aiStatus"></span></div>
         </div>
         <label class="wide">요약<textarea name="summary" rows="4"></textarea></label>
         <label>신규/픽업 캐릭터 <small>(한 줄에 하나)</small><textarea name="characters" rows="4"></textarea></label>
@@ -442,8 +451,12 @@ function renderAdmin() {
   };
 
   $("#parseRaw").onclick = () => autoParse($("#bForm"), $("#raw").value);
-  $("#adminToken").value = localStorage.getItem("gacha-calendar:token") || "";
-  $("#aiSum").onclick = () => aiSummarize($("#bForm"), $("#raw").value);
+  $("#copyPrompt").onclick = () => {
+    if (!$("#raw").value.trim()) return toast("원문을 먼저 붙여넣어 주세요.");
+    copy(buildPrompt($("#bForm").game.value, $("#raw").value));
+    toast("프롬프트를 복사했습니다. AI 채팅창에 붙여넣으세요.");
+  };
+  $("#applyJson").onclick = () => applyAiJson($("#bForm"), $("#aiJson").value);
 
   // 기준값 저장
   $("#cForm").onsubmit = (ev) => {
@@ -479,36 +492,53 @@ function renderAdmin() {
   $("#main").querySelectorAll("[data-ev]").forEach((b) => (b.onclick = () => openEvent(b.dataset.ev)));
 }
 
-// Claude로 방송 원문 요약 (서버 함수 /api/summarize 필요 — Vercel 배포 시 동작)
-async function aiSummarize(form, raw) {
-  if (!raw.trim()) return toast("원문을 먼저 붙여넣어 주세요.");
-  const btn = $("#aiSum"), status = $("#aiStatus"), token = $("#adminToken").value.trim();
-  localStorage.setItem("gacha-calendar:token", token);
-  btn.disabled = true; status.textContent = "Claude가 요약하는 중… (최대 1~2분)";
+// 무료 AI 활용: 프롬프트를 복사해 사용자가 직접 무료 AI 채팅(Claude.ai, ChatGPT 등)에 붙여넣고,
+// 돌려받은 JSON 답변을 폼에 적용합니다. (사이트는 유료 API를 호출하지 않음)
+function buildPrompt(game, raw) {
+  return `아래는 서브컬처 게임 「${GAMES[game].name}」의 공식 방송/공지 원문입니다. 내용을 정리해서 아래 JSON 형식으로만 답해 주세요.
+규칙:
+- 원문에 있는 정보만 사용하고, 없는 내용은 빈 문자열이나 빈 배열로 둡니다.
+- 날짜·시간은 한국 시간(KST)으로 변환합니다. 날짜는 YYYY-MM-DD, 만료 시각은 YYYY-MM-DDTHH:MM 형식입니다.
+- 캐릭터 이름은 한국 서버 공식 표기를 알면 그것을, 모르면 원문 표기를 씁니다.
+- events 의 type 은 version(버전 업데이트) / banner(캐릭터 픽업) / broadcast(공식 방송) / collab(콜라보) / event(인게임 이벤트) / maint(점검) 중 하나입니다.
+
+{
+  "version": "버전 번호 (예: 7.3)",
+  "title": "방송 제목",
+  "date": "방송일 YYYY-MM-DD",
+  "summary": "핵심 요약 3~5문장",
+  "characters": ["5성 이름 (신규/복각, 속성) — 1차"],
+  "content": ["신규 지역·스토리·이벤트·시스템 변경 등"],
+  "codes": [{"code": "리딤코드", "reward": "보상", "expires": "YYYY-MM-DDTHH:MM"}],
+  "events": [{"type": "banner", "title": "일정 제목", "start": "YYYY-MM-DD", "end": "YYYY-MM-DD", "time": "HH:MM", "note": ""}]
+}
+
+<원문>
+${raw}
+</원문>`;
+}
+
+function applyAiJson(form, text) {
+  const status = $("#aiStatus");
+  let data;
   try {
-    const res = await fetch("api/summarize", {
-      method: "POST",
-      headers: { "Content-Type": "application/json", ...(token ? { "x-admin-token": token } : {}) },
-      body: JSON.stringify({ text: raw, game: form.game.value }),
-    });
-    const data = await res.json().catch(() => ({ error: res.status === 404 || res.status === 501 ? "AI 서버가 없습니다. Vercel에 배포한 사이트에서 사용할 수 있어요." : `서버 오류 (${res.status})` }));
-    if (!res.ok) throw new Error(data.error);
-    const put = (n, v) => { if (v) form[n].value = v; };
-    put("version", data.version); put("title", data.title); put("date", data.date); put("summary", data.summary);
-    put("characters", (data.characters || []).join("\n"));
-    put("content", (data.content || []).join("\n"));
-    put("codes", (data.codes || []).map((c) => `${c.code} | ${c.reward} | ${(c.expires || "").replace("T", " ")}`).join("\n"));
-    // 원문에 날짜가 있던 일정은 확인 후 바로 캘린더에 추가할 수 있게 제안
-    const evs = (data.events || []).filter((e) => /^\d{4}-\d{2}-\d{2}$/.test(e.start));
-    status.innerHTML = `완료! 내용을 확인한 뒤 저장하세요.${evs.length ? ` <button type="button" class="btn sm" id="addAiEvents">일정 ${evs.length}개 캘린더에 추가</button>` : ""}`;
-    if (evs.length) $("#addAiEvents").onclick = () => {
-      evs.forEach((e) => upsert("events", { id: uid("e"), game: form.game.value, type: e.type, title: e.title, start: e.start, end: e.end || e.start, time: e.time, note: e.note }));
-      toast(`일정 ${evs.length}개를 추가했습니다.`); $("#addAiEvents").remove();
-    };
-  } catch (err) {
-    status.textContent = "";
-    toast(err.message || "AI 요약에 실패했습니다.");
-  } finally { btn.disabled = false; }
+    const m = text.match(/\{[\s\S]*\}/); // 코드블록·설명이 섞여 있어도 JSON 부분만 사용
+    data = JSON.parse(m ? m[0] : text);
+  } catch { return toast("JSON을 읽지 못했습니다. AI 답변의 { ... } 부분을 그대로 붙여넣어 주세요."); }
+  const put = (n, v) => { if (v) form[n].value = v; };
+  const arr = (v) => (Array.isArray(v) ? v : []);
+  put("version", data.version); put("title", data.title);
+  if (/^\d{4}-\d{2}-\d{2}$/.test(data.date || "")) put("date", data.date);
+  put("summary", data.summary);
+  put("characters", arr(data.characters).join("\n"));
+  put("content", arr(data.content).join("\n"));
+  put("codes", arr(data.codes).filter((c) => c && c.code).map((c) => `${c.code} | ${c.reward || ""} | ${(c.expires || "").replace("T", " ")}`).join("\n"));
+  const evs = arr(data.events).filter((e) => e && EVENT_TYPES[e.type] && /^\d{4}-\d{2}-\d{2}$/.test(e.start || ""));
+  status.innerHTML = `적용 완료! 확인 후 저장하세요.${evs.length ? ` <button type="button" class="btn sm" id="addAiEvents">일정 ${evs.length}개 캘린더에 추가</button>` : ""}`;
+  if (evs.length) $("#addAiEvents").onclick = () => {
+    evs.forEach((e) => upsert("events", { id: uid("e"), game: form.game.value, type: e.type, title: String(e.title || ""), start: e.start, end: /^\d{4}-\d{2}-\d{2}$/.test(e.end || "") && e.end >= e.start ? e.end : e.start, time: e.time || "", note: e.note || "" }));
+    toast(`일정 ${evs.length}개를 추가했습니다.`); $("#addAiEvents").remove();
+  };
 }
 
 // 원문 텍스트에서 리딤코드·캐릭터·버전 추출 (규칙 기반)

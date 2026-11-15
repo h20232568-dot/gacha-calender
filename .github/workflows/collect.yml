@@ -2,8 +2,8 @@ name: 일정 자동 수집
 
 on:
   schedule:
-    - cron: "17 21 * * *"   # 매일 06:17 KST (21:17 UTC)
-  workflow_dispatch:         # Actions 탭에서 수동 실행
+    - cron: "17 */6 * * *"   # 6시간마다 (무료: 외부 유료 API 사용 안 함)
+  workflow_dispatch:           # Actions 탭에서 수동 실행
     inputs:
       games:
         description: "수집할 게임 (비우면 전체) 예: hsr wuwa"
@@ -19,23 +19,23 @@ concurrency:
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-          cache: npm
-      - run: npm ci
-      - name: Claude로 최신 일정 수집
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      - name: 공식 공지·위키·코드 수집
         run: node scripts/collect.mjs ${{ github.event.inputs.games }}
       - name: 변경 사항 커밋
         run: |
-          if git diff --quiet -- data/auto.json; then echo "변경 없음"; exit 0; fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/auto.json
-          git commit -m "chore: 일정 자동 수집 $(date -u +%Y-%m-%d)"
-          git push
+          # updatedAt 만 바뀐 경우는 커밋하지 않음 (불필요한 재배포 방지)
+          if git diff -U0 -- data/auto.json | grep '^[+-] ' | grep -qv '"updatedAt"'; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/auto.json
+            git commit -m "chore: 일정 자동 수집 $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          else
+            echo "변경 없음"
+          fi

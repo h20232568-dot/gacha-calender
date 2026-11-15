@@ -6,8 +6,5 @@
     "dev": "node scripts/dev-server.mjs",
     "collect": "node scripts/collect.mjs"
   },
-  "dependencies": {
-    "@anthropic-ai/sdk": "^1.8.0"
-  },
   "engines": { "node": ">=20" }
 }
