@@ -619,6 +619,18 @@
   "news": [
     {
       "game": "genshin",
+      "title": "원신 | 애니메이션 컷신-「하늘의 문」",
+      "date": "2026-11-15",
+      "url": "https://www.hoyolab.com/article/47448094"
+    },
+    {
+      "game": "genshin",
+      "title": "위기 속에서 또다시 피어오르는 의혹…",
+      "date": "2026-11-15",
+      "url": "https://www.hoyolab.com/article/47448142"
+    },
+    {
+      "game": "genshin",
       "title": "원신 | 스토리 PV-「온 땅에 내려진 자애」",
       "date": "2026-11-14",
       "url": "https://www.hoyolab.com/article/47436368"
@@ -756,18 +768,6 @@
       "url": "https://www.hoyolab.com/article/47351623"
     },
     {
-      "game": "genshin",
-      "title": "여명을 밝히는 심판의 서리",
-      "date": "2026-11-06",
-      "url": "https://www.hoyolab.com/article/47339559"
-    },
-    {
-      "game": "genshin",
-      "title": "「땅 신성화」 현상 확산, 7개국 대표 스네즈나야에 집결",
-      "date": "2026-11-04",
-      "url": "https://www.hoyolab.com/article/47314817"
-    },
-    {
       "game": "wuwa",
       "title": "「거울에 잠긴 허상, 마음이 비추는 인간 세상」 3.7 버전 업데이트 내용 안내",
       "date": "2026-09-30",
@@ -862,5 +862,5 @@
     "Suoming": "쇄명",
     "Yangyang: Xuanling": "양양·현령"
   },
-  "updatedAt": "2026-11-15T03:35:49.552Z"
+  "updatedAt": "2026-11-15T13:54:52.299Z"
 }
