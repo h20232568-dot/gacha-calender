@@ -141,3 +141,6 @@ dialog h2 { margin: 8px 0; font-size: 18px; }
 .news a { flex: 1; color: var(--text); text-decoration: none; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .news a:hover { color: var(--accent); }
 .news small { color: var(--muted); white-space: nowrap; }
+/* 보상 설명이 길면 2줄까지만 (마우스를 올리면 전체 표시) */
+.code small:not(.exp) { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; white-space: normal; }
+.code small:not(.exp):hover { -webkit-line-clamp: unset; }

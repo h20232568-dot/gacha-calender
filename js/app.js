@@ -235,7 +235,7 @@ function renderSidebar() {
       ${codes.length > 5 ? `<button class="btn sm ghost" id="allCodes">전체 ${codes.length}개 보기 →</button>` : ""}
     </section>`;
   const news = (AUTO.news || []).filter((n) => state.games.has(n.game)).slice(0, 10);
-  if (news.length) $("#side").insertAdjacentHTML("beforeend", `<section class="card"><h3>📰 공식 공지 <small>(HoYoLAB)</small></h3>
+  if (news.length) $("#side").insertAdjacentHTML("beforeend", `<section class="card"><h3>📰 공식 공지</h3>
     <ul class="news">${news.map((n) => `<li>${gameBadge(n.game)} <a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title)}</a><small>${esc(n.date.slice(5).replace("-", "/"))}</small></li>`).join("")}</ul></section>`);
   if (AUTO.updatedAt) $("#side").insertAdjacentHTML("beforeend", `<p class="hint">🤖 자동 수집 마지막 갱신: ${esc(new Date(AUTO.updatedAt).toLocaleString("ko-KR", { timeZone: "Asia/Seoul" }))}</p>`);
   $("#side").querySelectorAll("[data-ev]").forEach((b) => (b.onclick = () => openEvent(b.dataset.ev)));
