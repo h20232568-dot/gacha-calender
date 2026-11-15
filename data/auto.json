@@ -1,15 +1,77 @@
 {
   "events": [
     {
+      "id": "auto-wuwa-broadcast-3.6",
+      "game": "wuwa",
+      "type": "broadcast",
+      "title": "3.6 버전 프리뷰 특별 방송",
+      "start": "2026-08-07",
+      "end": "2026-08-07",
+      "note": "방송 직후 게시되는 공식 'Version Preview' 공지 기준 (시각 미표기)",
+      "sources": [
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/5245"
+      ]
+    },
+    {
+      "id": "auto-wuwa-version-3.6",
+      "game": "wuwa",
+      "type": "version",
+      "title": "3.6 「신기루 속 등불 그림자, 속세에 깃든 검의 결심」 업데이트",
+      "start": "2026-08-20",
+      "end": "2026-08-20",
+      "time": "05:00",
+      "note": "점검 시작 시각 (KST)",
+      "sources": [
+        "https://wutheringwaves.kurogames.com/kr/main/news/detail/5358"
+      ]
+    },
+    {
+      "id": "auto-zzz-banner-2026-09-09-2026-09-30",
+      "game": "zzz",
+      "type": "banner",
+      "title": "3.2 1차 픽업: 클라렛 · 남궁우",
+      "start": "2026-09-09",
+      "end": "2026-09-30",
+      "note": "종료 2026-09-30 12:59 (KST)",
+      "sources": [
+        "https://www.hoyolab.com/article/46604530"
+      ]
+    },
+    {
+      "id": "auto-wuwa-broadcast-3.7",
+      "game": "wuwa",
+      "type": "broadcast",
+      "title": "3.7 버전 프리뷰 특별 방송",
+      "start": "2026-09-19",
+      "end": "2026-09-19",
+      "note": "방송 직후 게시되는 공식 'Version Preview' 공지 기준 (시각 미표기)",
+      "sources": [
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/5454"
+      ]
+    },
+    {
       "id": "auto-hsr-broadcast-4.6",
       "game": "hsr",
       "type": "broadcast",
       "title": "4.6 버전 특별 방송",
       "start": "2026-09-20",
       "end": "2026-09-20",
-      "note": "HoYoLAB 프리뷰 토론실 게시일 기준",
+      "time": "20:30",
+      "note": "공식 방송 예고 공지 기준",
       "sources": [
-        "https://www.hoyolab.com/article/46763050"
+        "https://www.hoyolab.com/article/46691962"
+      ]
+    },
+    {
+      "id": "auto-hsr-collab-46784519",
+      "game": "hsr",
+      "type": "collab",
+      "title": "🥐붕괴: 스타레일X메가MGC커피 콜라보☕: ONE \"SCRIPT\", MEGA TIME | 콜라보 상세 안내",
+      "start": "2026-09-22",
+      "end": "2026-09-22",
+      "note": "공지 게시일 기준",
+      "sources": [
+        "https://www.hoyolab.com/article/46784519"
       ]
     },
     {
@@ -23,6 +85,18 @@
       "note": "점검 시작 시각 (KST)",
       "sources": [
         "https://www.hoyolab.com/article/46771203"
+      ]
+    },
+    {
+      "id": "auto-genshin-banner-2026-09-23-2026-10-13",
+      "game": "genshin",
+      "type": "banner",
+      "title": "7.1 1차 픽업: 베스나 · 보댜니차",
+      "start": "2026-09-23",
+      "end": "2026-10-13",
+      "note": "종료 2026-10-13 19:59 (KST)",
+      "sources": [
+        "https://www.hoyolab.com/article/46771531"
       ]
     },
     {
@@ -63,6 +137,31 @@
       ]
     },
     {
+      "id": "auto-wuwa-version-3.7",
+      "game": "wuwa",
+      "type": "version",
+      "title": "3.7 「거울에 잠긴 허상, 마음이 비추는 인간 세상」 업데이트",
+      "start": "2026-09-30",
+      "end": "2026-09-30",
+      "time": "05:00",
+      "note": "점검 시작 시각 (KST)",
+      "sources": [
+        "https://wutheringwaves.kurogames.com/kr/main/news/detail/5572"
+      ]
+    },
+    {
+      "id": "auto-wuwa-banner-2026-09-30-2026-10-22",
+      "game": "wuwa",
+      "type": "banner",
+      "title": "3.7 1차 픽업: 유노 · 치사 · 여우의별자리",
+      "start": "2026-09-30",
+      "end": "2026-10-22",
+      "note": "12:00 ~ 2026-10-22 10:59 (KST)",
+      "sources": [
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/5546"
+      ]
+    },
+    {
       "id": "auto-zzz-banner-2026-09-30-2026-10-20",
       "game": "zzz",
       "type": "banner",
@@ -75,15 +174,28 @@
       ]
     },
     {
-      "id": "auto-wuwa-banner-2026-09-30-2026-10-22",
-      "game": "wuwa",
-      "type": "banner",
-      "title": "픽업: Iuno · Chisa · Hsin",
-      "start": "2026-09-30",
-      "end": "2026-10-22",
-      "note": "12:00 ~ 2026-10-22 10:59 (KST) · 이름은 위키 영문 표기",
+      "id": "auto-zzz-broadcast-3.3",
+      "game": "zzz",
+      "type": "broadcast",
+      "title": "3.3 버전 특별 방송",
+      "start": "2026-10-09",
+      "end": "2026-10-09",
+      "time": "20:30",
+      "note": "공식 방송 예고 공지 기준",
       "sources": [
-        "https://wutheringwaves.kurogames.com/en/main/news/detail/5546"
+        "https://www.hoyolab.com/article/46972907"
+      ]
+    },
+    {
+      "id": "auto-genshin-banner-2026-10-13-2026-11-03",
+      "game": "genshin",
+      "type": "banner",
+      "title": "7.1 2차 픽업: 스커크 · 에스코피에",
+      "start": "2026-10-13",
+      "end": "2026-11-03",
+      "note": "종료 2026-11-03 16:59 (KST)",
+      "sources": [
+        "https://www.hoyolab.com/article/47010361"
       ]
     },
     {
@@ -114,12 +226,25 @@
       "id": "auto-wuwa-banner-2026-10-22-2026-11-11",
       "game": "wuwa",
       "type": "banner",
-      "title": "픽업: Lucilla · Lynae · Suoming",
+      "title": "3.7 2차 픽업: 루실라 · 린네 · 쇄명",
       "start": "2026-10-22",
       "end": "2026-11-11",
-      "note": "11:00 ~ 2026-11-11 12:59 (KST) · 이름은 위키 영문 표기",
+      "note": "11:00 ~ 2026-11-11 12:59 (KST)",
       "sources": [
         "https://wutheringwaves.kurogames.com/en/main/news/detail/5668"
+      ]
+    },
+    {
+      "id": "auto-genshin-broadcast-7.2",
+      "game": "genshin",
+      "type": "broadcast",
+      "title": "7.2 버전 특별 방송",
+      "start": "2026-10-23",
+      "end": "2026-10-23",
+      "time": "21:00",
+      "note": "공식 방송 예고 공지 기준",
+      "sources": [
+        "https://www.hoyolab.com/article/47151000"
       ]
     },
     {
@@ -129,9 +254,10 @@
       "title": "4.7 버전 특별 방송",
       "start": "2026-10-30",
       "end": "2026-10-30",
-      "note": "HoYoLAB 프리뷰 토론실 게시일 기준",
+      "time": "20:30",
+      "note": "공식 방송 예고 공지 기준",
       "sources": [
-        "https://www.hoyolab.com/article/47251829"
+        "https://www.hoyolab.com/article/47210911"
       ]
     },
     {
@@ -157,6 +283,18 @@
       "note": "종료 2026-11-24 19:59 (KST)",
       "sources": [
         "https://www.hoyolab.com/article/47284168"
+      ]
+    },
+    {
+      "id": "auto-wuwa-broadcast-3.8",
+      "game": "wuwa",
+      "type": "broadcast",
+      "title": "3.8 버전 프리뷰 특별 방송",
+      "start": "2026-11-06",
+      "end": "2026-11-06",
+      "note": "방송 직후 게시되는 공식 'Version Preview' 공지 기준 (시각 미표기)",
+      "sources": [
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/5689"
       ]
     },
     {
@@ -209,6 +347,31 @@
       ]
     },
     {
+      "id": "auto-wuwa-version-3.8",
+      "game": "wuwa",
+      "type": "version",
+      "title": "3.8 「아득한 꿈속, 잔잔히 스러진 백합」 업데이트",
+      "start": "2026-11-12",
+      "end": "2026-11-12",
+      "time": "05:00",
+      "note": "점검 시작 시각 (KST)",
+      "sources": [
+        "https://wutheringwaves.kurogames.com/kr/main/news/detail/5784"
+      ]
+    },
+    {
+      "id": "auto-wuwa-banner-2026-11-12-2026-12-03",
+      "game": "wuwa",
+      "type": "banner",
+      "title": "3.8 1차 픽업: 구원 · 시그리카 · 릴리",
+      "start": "2026-11-12",
+      "end": "2026-12-03",
+      "note": "12:00 ~ 2026-12-03 10:59 (KST)",
+      "sources": [
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/5736"
+      ]
+    },
+    {
       "id": "auto-hsr-collab-47412533",
       "game": "hsr",
       "type": "collab",
@@ -221,31 +384,76 @@
       ]
     },
     {
-      "id": "auto-wuwa-banner-2026-11-12-2026-12-03",
-      "game": "wuwa",
-      "type": "banner",
-      "title": "픽업: Qiuyuan · Sigrika · Lily",
-      "start": "2026-11-12",
-      "end": "2026-12-03",
-      "note": "12:00 ~ 2026-12-03 10:59 (KST) · 이름은 위키 영문 표기",
-      "sources": [
-        "https://wutheringwaves.kurogames.com/en/main/news/detail/5736"
-      ]
-    },
-    {
       "id": "auto-wuwa-banner-2026-12-03-2026-12-21",
       "game": "wuwa",
       "type": "banner",
-      "title": "픽업: Hiyuki · Suisui · Yangyang: Xuanling",
+      "title": "3.8 2차 픽업: 히유키 · 수수 · 양양·현령",
       "start": "2026-12-03",
       "end": "2026-12-21",
-      "note": "11:00 ~ 2026-12-21 04:59 (KST) · 이름은 위키 영문 표기",
+      "note": "11:00 ~ 2026-12-21 04:59 (KST)",
       "sources": [
         "https://wutheringwaves.kurogames.com/en/main/news/detail/5736"
       ]
     }
   ],
+  "broadcasts": [
+    {
+      "id": "auto-b-hsr-4.7",
+      "game": "hsr",
+      "version": "4.7",
+      "title": "4.7 프리뷰 스페셜 프로그램 정보",
+      "date": "2026-10-30",
+      "time": "20:30",
+      "vod": "",
+      "summary": "〈붕괴: 스타레일〉 4.7 버전 「지금, 뭇별을 웃음으로」 프리뷰 스페셜 프로그램이 종료되었습니다. 신규 캐릭터, 신규 필드, 신규 이벤트가 곧 오픈되니 은하열차에 탑승해 새로운 모험 여정을 시작해 보세요!\n프리뷰 스페셜 프로그램 다시 보기:\n프리뷰 스페셜 프로그램 리딤코드:\nNEVERGONNAGIVE\nNEVERGONNAMAKE\nAHABLESSYOU",
+      "characters": [],
+      "content": [],
+      "codes": [],
+      "sources": [
+        "https://www.hoyolab.com/article/47252183"
+      ]
+    },
+    {
+      "id": "auto-b-hsr-4.6",
+      "game": "hsr",
+      "version": "4.6",
+      "title": "4.6 프리뷰 스페셜 프로그램 정보",
+      "date": "2026-09-20",
+      "time": "20:30",
+      "vod": "",
+      "summary": "〈붕괴: 스타레일〉 4.6 버전 「달 뜨기 전, 괴수와 춤을」 프리뷰 스페셜 프로그램이 종료되었습니다. 신규 캐릭터, 신규 필드, 신규 이벤트가 곧 오픈되니 은하열차에 탑승해 새로운 모험 여정을 시작해 보세요!\n프리뷰 스페셜 프로그램 다시 보기:\n프리뷰 스페셜 프로그램 리딤코드:\nKA5SV3FJM7WX\n7S4AD2X35NE3\nMALSV2F247FP",
+      "characters": [],
+      "content": [],
+      "codes": [],
+      "sources": [
+        "https://www.hoyolab.com/article/46763509"
+      ]
+    },
+    {
+      "id": "auto-b-zzz-3.3",
+      "game": "zzz",
+      "version": "3.3",
+      "title": "젠레스 존 제로 3.3 버전 「다시 하늘을 향해」 특별 방송 | 정보 일람",
+      "date": "2026-10-09",
+      "time": "20:30",
+      "vod": "",
+      "summary": "꿈속을 떠도는 자의 꿈에서 또 다른 꿈꾸는 자가 깨어났다.\n신규 에이전트 「피닉스」, 「세베리안」 출시 임박!\n또한 신규 코스튬, 에이전트 변조 복각, 신규 스토리 및 콘텐츠가 3.3 버전에서 로프꾼님을 찾아갑니다! 기대해 주세요!\n이번 특별 방송의 리딤코드는 10월 11일 24:59:59(KST)에 만료됩니다. 잊지 말고 교환해 주세요!\n아래 이미지를 확인해 이번 특별 방송 내용을 돌아보세요!",
+      "characters": [],
+      "content": [],
+      "codes": [],
+      "sources": [
+        "https://www.hoyolab.com/article/47023957"
+      ]
+    }
+  ],
   "codes": [
+    {
+      "game": "wuwa",
+      "code": "WUTHERINGGIFT",
+      "reward": "Astrite*50, Premium Resonance Potion*2, Medium Revival Inhaler*2, Medium Energy Bag*2, Shell Credit*10000",
+      "expires": "",
+      "source": "wutheringwaves.fandom.com"
+    },
     {
       "game": "genshin",
       "code": "NEEIJB764CA3",
@@ -406,13 +614,6 @@
       "reward": "Polychrome*20, Denny*2,222",
       "expires": "",
       "source": "hoyo-codes.seria.moe"
-    },
-    {
-      "game": "wuwa",
-      "code": "WUTHERINGGIFT",
-      "reward": "Astrite*50, Premium Resonance Potion*2, Medium Revival Inhaler*2, Medium Energy Bag*2, Shell Credit*10000",
-      "expires": "",
-      "source": "wutheringwaves.fandom.com"
     }
   ],
   "news": [
@@ -475,6 +676,12 @@
       "title": "Zenless Zone Zero X Discord",
       "date": "2026-11-13",
       "url": "https://www.hoyolab.com/article/47421386"
+    },
+    {
+      "game": "wuwa",
+      "title": "「아득한 꿈속, 잔잔히 스러진 백합」 3.8 버전 업데이트 내용 안내",
+      "date": "2026-11-12",
+      "url": "https://wutheringwaves.kurogames.com/kr/main/news/detail/5784"
     },
     {
       "game": "genshin",
@@ -559,9 +766,79 @@
       "title": "「땅 신성화」 현상 확산, 7개국 대표 스네즈나야에 집결",
       "date": "2026-11-04",
       "url": "https://www.hoyolab.com/article/47314817"
+    },
+    {
+      "game": "wuwa",
+      "title": "「거울에 잠긴 허상, 마음이 비추는 인간 세상」 3.7 버전 업데이트 내용 안내",
+      "date": "2026-09-30",
+      "url": "https://wutheringwaves.kurogames.com/kr/main/news/detail/5572"
+    },
+    {
+      "game": "wuwa",
+      "title": "클라이언트 리소스 등급별 다운로드 기능에 관하여",
+      "date": "2026-09-24",
+      "url": "https://wutheringwaves.kurogames.com/kr/main/news/detail/5485"
+    },
+    {
+      "game": "wuwa",
+      "title": "「신기루 속 등불 그림자, 속세에 깃든 검의 결심」 3.6 버전 업데이트 내용 안내",
+      "date": "2026-08-20",
+      "url": "https://wutheringwaves.kurogames.com/kr/main/news/detail/5358"
+    },
+    {
+      "game": "wuwa",
+      "title": "[노을에 깃든 이슬] 무기 이벤트 튜닝",
+      "date": "2026-07-29",
+      "url": "https://wutheringwaves.kurogames.com/kr/main/news/detail/5238"
+    },
+    {
+      "game": "wuwa",
+      "title": "[단비에서 전하는 연꽃 바람의 축복] 캐릭터 이벤트 튜닝",
+      "date": "2026-07-29",
+      "url": "https://wutheringwaves.kurogames.com/kr/main/news/detail/5229"
+    },
+    {
+      "game": "wuwa",
+      "title": "「남겨진 울림, 검에 기대 꿈속에서 노래하리」 3.5 버전 업데이트 내용 안내",
+      "date": "2026-07-10",
+      "url": "https://wutheringwaves.kurogames.com/kr/main/news/detail/5122"
+    },
+    {
+      "game": "wuwa",
+      "title": "Xbox Game Pass 혜택 패키지 관련",
+      "date": "2026-07-10",
+      "url": "https://wutheringwaves.kurogames.com/kr/main/news/detail/5115"
+    },
+    {
+      "game": "wuwa",
+      "title": "[울림에 새겨진 추억] 여정이 남긴 무기 튜닝",
+      "date": "2026-07-09",
+      "url": "https://wutheringwaves.kurogames.com/kr/main/news/detail/5078"
+    },
+    {
+      "game": "wuwa",
+      "title": "[여정이 남긴 울림] 여정이 남긴 캐릭터 튜닝",
+      "date": "2026-07-09",
+      "url": "https://wutheringwaves.kurogames.com/kr/main/news/detail/5069"
+    },
+    {
+      "game": "wuwa",
+      "title": "[아득히 푸른 하늘] 무기 이벤트 튜닝",
+      "date": "2026-07-09",
+      "url": "https://wutheringwaves.kurogames.com/kr/main/news/detail/5058"
+    },
+    {
+      "game": "wuwa",
+      "title": "[깃털에 실은 만물의 소리] 캐릭터 이벤트 튜닝",
+      "date": "2026-07-09",
+      "url": "https://wutheringwaves.kurogames.com/kr/main/news/detail/5049"
     }
   ],
   "cycles": {
+    "wuwa": {
+      "anchorVersion": "3.8",
+      "anchorDate": "2026-11-12"
+    },
     "genshin": {
       "anchorVersion": "7.2",
       "anchorDate": "2026-11-04"
@@ -571,5 +848,19 @@
       "anchorDate": "2026-11-11"
     }
   },
-  "updatedAt": "2026-11-15T03:15:01.740Z"
+  "wuwaNames": {
+    "Hiyuki": "히유키",
+    "Suisui": "수수",
+    "Yangyang: Xuanling": "양양·현령",
+    "Qiuyuan": "구원",
+    "Sigrika": "시그리카",
+    "Lily": "릴리",
+    "Lucilla": "루실라",
+    "Lynae": "린네",
+    "Suoming": "쇄명",
+    "Iuno": "유노",
+    "Chisa": "치사",
+    "Hsin": "여우의별자리"
+  },
+  "updatedAt": "2026-11-15T03:27:16.705Z"
 }

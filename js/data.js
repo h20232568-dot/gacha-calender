@@ -55,10 +55,10 @@ const SRC = {
 };
 
 // 확정 일정 (직접 관리)
-// ※ 원신·스타레일·젠존제의 버전/픽업 일정과 명조 픽업은 자동 수집(data/auto.json)이 공식 공지에서 가져옵니다.
+// ※ 4개 게임의 버전 업데이트·픽업·공식 방송 일정은 자동 수집(data/auto.json)이 공식 공지·위키에서 가져옵니다.
 //   여기에는 자동 수집이 못 가져오는 일정만 넣으세요. (같은 게임·종류·시작일이면 여기 데이터가 우선)
 export const EVENTS = [
-  { id: "ww-3.8-v", game: "wuwa", type: "version", title: "3.8 「Lilies in a Dying Dream」 업데이트", start: "2026-11-12", end: "2026-11-12", note: "사전 다운로드 11/10 11:00(KST)", sources: SRC.wuwa },
+  // 예) { id: "my-1", game: "genshin", type: "collab", title: "○○ 콜라보 카페", start: "2026-12-01", end: "2026-12-31", sources: ["https://..."] },
 ];
 
 // 공식 방송 요약
