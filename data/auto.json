@@ -384,6 +384,19 @@
       ]
     },
     {
+      "id": "auto-zzz-broadcast-3.4",
+      "game": "zzz",
+      "type": "broadcast",
+      "title": "3.4 버전 특별 방송",
+      "start": "2026-11-20",
+      "end": "2026-11-20",
+      "time": "19:30",
+      "note": "공식 방송 예고 공지 기준",
+      "sources": [
+        "https://www.hoyolab.com/article/47459953"
+      ]
+    },
+    {
       "id": "auto-wuwa-banner-2026-12-03-2026-12-21",
       "game": "wuwa",
       "type": "banner",
@@ -447,6 +460,13 @@
     }
   ],
   "codes": [
+    {
+      "game": "genshin",
+      "code": "ARCHONSANSWERS",
+      "reward": "Primogem*40, Hero's Wit*3, Mora*30,000",
+      "expires": "",
+      "source": "hoyo-codes.seria.moe"
+    },
     {
       "game": "genshin",
       "code": "CDOF4X83H7X2",
@@ -612,6 +632,24 @@
   "news": [
     {
       "game": "genshin",
+      "title": "<원신> 페이몬의 스케치 54-이모티콘 등장!",
+      "date": "2026-11-16",
+      "url": "https://www.hoyolab.com/article/47459956"
+    },
+    {
+      "game": "zzz",
+      "title": "G-STAR 출격 D-3! ⭐현장 부스 하이라이트 공개!",
+      "date": "2026-11-16",
+      "url": "https://www.hoyolab.com/article/47459157"
+    },
+    {
+      "game": "zzz",
+      "title": "〈젠레스 존 제로〉 3.4 버전 「긴 나날의 끝자락」 특별 방송 예고",
+      "date": "2026-11-16",
+      "url": "https://www.hoyolab.com/article/47459953"
+    },
+    {
+      "game": "genshin",
       "title": "원신 | 애니메이션 컷신-「하늘의 문」",
       "date": "2026-11-15",
       "url": "https://www.hoyolab.com/article/47448094"
@@ -726,21 +764,9 @@
     },
     {
       "game": "zzz",
-      "title": "다시 하늘을 향해 | 3.3 버전 콘텐츠 미리보기(하반기)",
-      "date": "2026-11-11",
-      "url": "https://www.hoyolab.com/article/47396372"
-    },
-    {
-      "game": "zzz",
       "title": "니콜, 생일 축하해 | 폐가전 수거는 어디로",
       "date": "2026-11-11",
       "url": "https://www.hoyolab.com/article/47396584"
-    },
-    {
-      "game": "zzz",
-      "title": "3.3 버전 「상점」 업데이트 안내",
-      "date": "2026-11-10",
-      "url": "https://www.hoyolab.com/article/47385589"
     },
     {
       "game": "genshin",
@@ -753,12 +779,6 @@
       "title": "미탸 고문 관찰 기록",
       "date": "2026-11-08",
       "url": "https://www.hoyolab.com/article/47363693"
-    },
-    {
-      "game": "genshin",
-      "title": "격식 속에 감춘 칼날",
-      "date": "2026-11-07",
-      "url": "https://www.hoyolab.com/article/47351623"
     },
     {
       "game": "wuwa",
@@ -855,5 +875,5 @@
     "Suoming": "쇄명",
     "Yangyang: Xuanling": "양양·현령"
   },
-  "updatedAt": "2026-11-15T22:48:10.945Z"
+  "updatedAt": "2026-11-16T06:24:52.185Z"
 }
