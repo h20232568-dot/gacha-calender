@@ -575,7 +575,7 @@
     {
       "game": "hsr",
       "code": "NS4DU8AAGXBP",
-      "reward": "",
+      "reward": "50 stellar jade and 10k credits",
       "expires": "",
       "source": "hoyo-codes.seria.moe"
     },
@@ -635,6 +635,12 @@
       "title": "<원신> 페이몬의 스케치 54-이모티콘 등장!",
       "date": "2026-11-16",
       "url": "https://www.hoyolab.com/article/47459956"
+    },
+    {
+      "game": "hsr",
+      "title": "「은하열차 공략 가이드」 웹 페이지 업데이트, 4.7 버전 공략 공모 이벤트 절찬리 진행 중!",
+      "date": "2026-11-16",
+      "url": "https://www.hoyolab.com/article/47464625"
     },
     {
       "game": "zzz",
@@ -725,12 +731,6 @@
       "title": "원신 | 애니메이션 컷신-「바위와 계약」",
       "date": "2026-11-12",
       "url": "https://www.hoyolab.com/article/47413470"
-    },
-    {
-      "game": "hsr",
-      "title": "5.5 버전 | 이야기의 밖에 아직 누가 있을까",
-      "date": "2026-11-12",
-      "url": "https://www.hoyolab.com/article/47413033"
     },
     {
       "game": "hsr",
@@ -875,5 +875,5 @@
     "Suoming": "쇄명",
     "Yangyang: Xuanling": "양양·현령"
   },
-  "updatedAt": "2026-11-16T06:24:52.185Z"
+  "updatedAt": "2026-11-16T21:59:38.728Z"
 }
