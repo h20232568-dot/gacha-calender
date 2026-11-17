@@ -631,6 +631,12 @@
   ],
   "news": [
     {
+      "game": "zzz",
+      "title": "G-STAR 출격 D-2! ⭐의뢰 보상 확인!",
+      "date": "2026-11-17",
+      "url": "https://www.hoyolab.com/article/47471382"
+    },
+    {
       "game": "genshin",
       "title": "<원신> 페이몬의 스케치 54-이모티콘 등장!",
       "date": "2026-11-16",
@@ -763,12 +769,6 @@
       "url": "https://www.hoyolab.com/article/47413472"
     },
     {
-      "game": "zzz",
-      "title": "니콜, 생일 축하해 | 폐가전 수거는 어디로",
-      "date": "2026-11-11",
-      "url": "https://www.hoyolab.com/article/47396584"
-    },
-    {
       "game": "genshin",
       "title": "「지맥 제압전」 이벤트: 혼돈의 지맥을 향한 도전",
       "date": "2026-11-09",
@@ -875,5 +875,5 @@
     "Suoming": "쇄명",
     "Yangyang: Xuanling": "양양·현령"
   },
-  "updatedAt": "2026-11-16T21:59:38.728Z"
+  "updatedAt": "2026-11-17T07:52:49.764Z"
 }
