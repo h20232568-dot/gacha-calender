@@ -483,20 +483,6 @@
     },
     {
       "game": "genshin",
-      "code": "NEEI8A8341OW",
-      "reward": "",
-      "expires": "",
-      "source": "hoyo-codes.seria.moe"
-    },
-    {
-      "game": "genshin",
-      "code": "NEEIJB764CA3",
-      "reward": "Primogem*60",
-      "expires": "",
-      "source": "hoyo-codes.seria.moe"
-    },
-    {
-      "game": "genshin",
       "code": "PJ2KEBRAYSRM",
       "reward": "Primogem*60, Adventurer's Experience*5",
       "expires": "",
@@ -504,21 +490,7 @@
     },
     {
       "game": "genshin",
-      "code": "PNKZ3WLNN8G6",
-      "reward": "Teachings of Charity*5, Teachings of Fortitude*5, Teachings of Glory*5",
-      "expires": "",
-      "source": "hoyo-codes.seria.moe"
-    },
-    {
-      "game": "genshin",
       "code": "QYJWFB784MFL",
-      "reward": "Primogem*60, Adventurer's Experience*5",
-      "expires": "",
-      "source": "hoyo-codes.seria.moe"
-    },
-    {
-      "game": "genshin",
-      "code": "Y6JYMKV6JKSL",
       "reward": "Primogem*60, Adventurer's Experience*5",
       "expires": "",
       "source": "hoyo-codes.seria.moe"
@@ -875,5 +847,5 @@
     "Suoming": "쇄명",
     "Yangyang: Xuanling": "양양·현령"
   },
-  "updatedAt": "2026-11-17T07:52:49.764Z"
+  "updatedAt": "2026-11-17T20:54:05.547Z"
 }
