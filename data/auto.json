@@ -622,6 +622,18 @@
     },
     {
       "game": "zzz",
+      "title": "배경화면 공유 | 세베리안 테마 배경화면",
+      "date": "2026-11-18",
+      "url": "https://www.hoyolab.com/article/47485496"
+    },
+    {
+      "game": "zzz",
+      "title": "다시 하늘을 향해 | 영상 파일 기록 공유",
+      "date": "2026-11-18",
+      "url": "https://www.hoyolab.com/article/47485642"
+    },
+    {
+      "game": "zzz",
       "title": "G-STAR 출격 D-2! ⭐의뢰 보상 확인!",
       "date": "2026-11-17",
       "url": "https://www.hoyolab.com/article/47471382"
@@ -697,18 +709,6 @@
       "title": "[보상 이벤트] 에이언즈★아하 공략 토론 이벤트",
       "date": "2026-11-13",
       "url": "https://www.hoyolab.com/article/47425538"
-    },
-    {
-      "game": "zzz",
-      "title": "Zenless Zone Zero × Discord 테마 장식 소개",
-      "date": "2026-11-13",
-      "url": "https://www.hoyolab.com/article/47421484"
-    },
-    {
-      "game": "zzz",
-      "title": "「복원하자! 표류 화집」 이벤트 설명",
-      "date": "2026-11-13",
-      "url": "https://www.hoyolab.com/article/47424979"
     },
     {
       "game": "zzz",
@@ -847,5 +847,5 @@
     "Suoming": "쇄명",
     "Yangyang: Xuanling": "양양·현령"
   },
-  "updatedAt": "2026-11-18T07:25:21.407Z"
+  "updatedAt": "2026-11-18T20:30:08.770Z"
 }
