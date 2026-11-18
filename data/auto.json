@@ -603,6 +603,24 @@
   ],
   "news": [
     {
+      "game": "genshin",
+      "title": "「쾅쾅 블록 격파」 이벤트: 짜릿한 발굴 도전",
+      "date": "2026-11-18",
+      "url": "https://www.hoyolab.com/article/47482557"
+    },
+    {
+      "game": "zzz",
+      "title": "G-STAR 출격 D-1! ⭐오시는 길 및 SNS 인증 이벤트!",
+      "date": "2026-11-18",
+      "url": "https://www.hoyolab.com/article/47481852"
+    },
+    {
+      "game": "zzz",
+      "title": "변조 통계 도구 소개",
+      "date": "2026-11-18",
+      "url": "https://www.hoyolab.com/article/47482559"
+    },
+    {
       "game": "zzz",
       "title": "G-STAR 출격 D-2! ⭐의뢰 보상 확인!",
       "date": "2026-11-17",
@@ -682,12 +700,6 @@
     },
     {
       "game": "zzz",
-      "title": "Zenless Zone Zero X Discord",
-      "date": "2026-11-13",
-      "url": "https://www.hoyolab.com/article/47421386"
-    },
-    {
-      "game": "zzz",
       "title": "Zenless Zone Zero × Discord 테마 장식 소개",
       "date": "2026-11-13",
       "url": "https://www.hoyolab.com/article/47421484"
@@ -735,22 +747,10 @@
       "url": "https://wutheringwaves.kurogames.com/kr/main/news/detail/5784"
     },
     {
-      "game": "zzz",
-      "title": "🎁[보상 이벤트] 세베리안의 선물",
-      "date": "2026-11-12",
-      "url": "https://www.hoyolab.com/article/47413472"
-    },
-    {
       "game": "genshin",
       "title": "「지맥 제압전」 이벤트: 혼돈의 지맥을 향한 도전",
       "date": "2026-11-09",
       "url": "https://www.hoyolab.com/article/47375132"
-    },
-    {
-      "game": "genshin",
-      "title": "미탸 고문 관찰 기록",
-      "date": "2026-11-08",
-      "url": "https://www.hoyolab.com/article/47363693"
     },
     {
       "game": "wuwa",
@@ -847,5 +847,5 @@
     "Suoming": "쇄명",
     "Yangyang: Xuanling": "양양·현령"
   },
-  "updatedAt": "2026-11-17T20:54:05.547Z"
+  "updatedAt": "2026-11-18T07:25:21.407Z"
 }
