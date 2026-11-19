@@ -397,6 +397,18 @@
       ]
     },
     {
+      "id": "auto-genshin-banner-2026-11-24-2026-12-15",
+      "game": "genshin",
+      "type": "banner",
+      "title": "7.2 2차 픽업: 자백 · 린네아",
+      "start": "2026-11-24",
+      "end": "2026-12-15",
+      "note": "종료 2026-12-15 16:59 (KST)",
+      "sources": [
+        "https://www.hoyolab.com/article/47494924"
+      ]
+    },
+    {
       "id": "auto-wuwa-banner-2026-12-03-2026-12-21",
       "game": "wuwa",
       "type": "banner",
@@ -616,6 +628,18 @@
     },
     {
       "game": "genshin",
+      "title": "7.2 버전 이벤트 기원 알림 제2회",
+      "date": "2026-11-19",
+      "url": "https://www.hoyolab.com/article/47494924"
+    },
+    {
+      "game": "genshin",
+      "title": "「종말의 서막」 7.2 버전 이벤트 알림 제2회",
+      "date": "2026-11-19",
+      "url": "https://www.hoyolab.com/article/47495002"
+    },
+    {
+      "game": "genshin",
       "title": "「쾅쾅 블록 격파」 이벤트: 짜릿한 발굴 도전",
       "date": "2026-11-18",
       "url": "https://www.hoyolab.com/article/47482557"
@@ -687,22 +711,10 @@
       "url": "https://www.hoyolab.com/article/47448142"
     },
     {
-      "game": "genshin",
-      "title": "원신 | 스토리 PV-「온 땅에 내려진 자애」",
-      "date": "2026-11-14",
-      "url": "https://www.hoyolab.com/article/47436368"
-    },
-    {
       "game": "hsr",
       "title": "낙원에 온 걸 환영해 | 스타프로스터에서 온 초청장",
       "date": "2026-11-14",
       "url": "https://www.hoyolab.com/article/47436372"
-    },
-    {
-      "game": "genshin",
-      "title": "원신 | 애니메이션 컷신-「번개와 영원」",
-      "date": "2026-11-13",
-      "url": "https://www.hoyolab.com/article/47424977"
     },
     {
       "game": "hsr",
@@ -847,5 +859,5 @@
     "Suoming": "쇄명",
     "Yangyang: Xuanling": "양양·현령"
   },
-  "updatedAt": "2026-11-19T07:22:46.616Z"
+  "updatedAt": "2026-11-19T20:34:10.602Z"
 }
