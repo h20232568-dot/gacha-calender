@@ -604,6 +604,18 @@
   "news": [
     {
       "game": "genshin",
+      "title": "「일곱 성인의 소환」 격투 모드: 빠른 기책",
+      "date": "2026-11-19",
+      "url": "https://www.hoyolab.com/article/47493297"
+    },
+    {
+      "game": "genshin",
+      "title": "땅 신성화 재개를 앞두고·첫 번째 이야기——「협력」",
+      "date": "2026-11-19",
+      "url": "https://www.hoyolab.com/article/47493298"
+    },
+    {
+      "game": "genshin",
       "title": "「쾅쾅 블록 격파」 이벤트: 짜릿한 발굴 도전",
       "date": "2026-11-18",
       "url": "https://www.hoyolab.com/article/47482557"
@@ -717,12 +729,6 @@
       "url": "https://www.hoyolab.com/article/47428577"
     },
     {
-      "game": "genshin",
-      "title": "원신 | 애니메이션 컷신-「바위와 계약」",
-      "date": "2026-11-12",
-      "url": "https://www.hoyolab.com/article/47413470"
-    },
-    {
       "game": "hsr",
       "title": "〈붕괴: 스타레일〉 EP: 「무로부터의 창조」",
       "date": "2026-11-12",
@@ -745,12 +751,6 @@
       "title": "「아득한 꿈속, 잔잔히 스러진 백합」 3.8 버전 업데이트 내용 안내",
       "date": "2026-11-12",
       "url": "https://wutheringwaves.kurogames.com/kr/main/news/detail/5784"
-    },
-    {
-      "game": "genshin",
-      "title": "「지맥 제압전」 이벤트: 혼돈의 지맥을 향한 도전",
-      "date": "2026-11-09",
-      "url": "https://www.hoyolab.com/article/47375132"
     },
     {
       "game": "wuwa",
@@ -847,5 +847,5 @@
     "Suoming": "쇄명",
     "Yangyang: Xuanling": "양양·현령"
   },
-  "updatedAt": "2026-11-18T20:30:08.770Z"
+  "updatedAt": "2026-11-19T07:22:46.616Z"
 }
