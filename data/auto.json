@@ -397,6 +397,18 @@
       ]
     },
     {
+      "id": "auto-zzz-collab-47507109",
+      "game": "zzz",
+      "type": "collab",
+      "title": "〈젠레스 존 제로〉와 리듬 게임 DJMAX RESPECT V의 특별 라이선스 콜라보 확정!",
+      "start": "2026-11-20",
+      "end": "2026-11-20",
+      "note": "공지 게시일 기준",
+      "sources": [
+        "https://www.hoyolab.com/article/47507109"
+      ]
+    },
+    {
       "id": "auto-genshin-banner-2026-11-24-2026-12-15",
       "game": "genshin",
       "type": "banner",
@@ -469,6 +481,22 @@
       "sources": [
         "https://www.hoyolab.com/article/47023957"
       ]
+    },
+    {
+      "id": "auto-b-zzz-3.4",
+      "game": "zzz",
+      "version": "3.4",
+      "title": "젠레스 존 제로 3.4 버전 「긴 나날의 끝자락」 특별 방송 | 정보 일람",
+      "date": "2026-11-20",
+      "time": "19:30",
+      "vod": "",
+      "summary": "긴 나날의 끝자락\n——하늘은 맑고, 등대는 영원히 빛나기를.\n신규 에이전트 「태양을 가져온 자」, 「카프카」, 「로빈」 출시 임박!\n또한 신규 코스튬, 에이전트 변조 복각, 신규 스토리 및 콘텐츠가 3.4 버전에서 로프꾼님을 찾아갑니다! 기대해 주세요!\n이번 특별 방송의 리딤코드는 11월 22일 24:59:59(KST)에 만료됩니다. 잊지 말고 교환해 주세요!\n아래 이미지를 확인해 이번 특별 방송 내용을 돌아보세요!",
+      "characters": [],
+      "content": [],
+      "codes": [],
+      "sources": [
+        "https://www.hoyolab.com/article/47507255"
+      ]
     }
   ],
   "codes": [
@@ -497,6 +525,13 @@
       "game": "genshin",
       "code": "PJ2KEBRAYSRM",
       "reward": "Primogem*60, Adventurer's Experience*5",
+      "expires": "",
+      "source": "hoyo-codes.seria.moe"
+    },
+    {
+      "game": "genshin",
+      "code": "POYMANSXF877",
+      "reward": "Primogem*20, Geode of Replication*160",
       "expires": "",
       "source": "hoyo-codes.seria.moe"
     },
@@ -607,8 +642,29 @@
     },
     {
       "game": "zzz",
+      "code": "SUNCHASER",
+      "reward": "Polychrome*300, Senior Investigator Log*2, W-Engine Energy Module*3, Denny*30,000",
+      "expires": "",
+      "source": "hoyo-codes.seria.moe"
+    },
+    {
+      "game": "zzz",
       "code": "ZENLESSGIFT",
       "reward": "50 polychrome, two official investigator logs, three w-engine power supplies, and one bangboo algorithm module",
+      "expires": "",
+      "source": "hoyo-codes.seria.moe"
+    },
+    {
+      "game": "zzz",
+      "code": "ZZZ34SUNBRINGER",
+      "reward": "",
+      "expires": "",
+      "source": "hoyo-codes.seria.moe"
+    },
+    {
+      "game": "zzz",
+      "code": "ZZZHSRCOLLAB",
+      "reward": "",
       "expires": "",
       "source": "hoyo-codes.seria.moe"
     }
@@ -621,10 +677,58 @@
       "url": "https://www.hoyolab.com/article/47503139"
     },
     {
-      "game": "zzz",
-      "title": "[보상 이벤트] 이벤트에 참여하고 오리지널 마스터 테이프x10 혹은 Urban Kit 시리즈 휴대폰 스트랩 받기!",
+      "game": "hsr",
+      "title": "한정 ★5 캐릭터 로그인 즉시 수령",
       "date": "2026-11-20",
-      "url": "https://www.hoyolab.com/article/47503180"
+      "url": "https://www.hoyolab.com/article/47507004"
+    },
+    {
+      "game": "zzz",
+      "title": "〈젠레스 존 제로〉 3.4 버전 「긴 나날의 끝자락」 특별 방송 - 방송까지 앞으로 1시간!",
+      "date": "2026-11-20",
+      "url": "https://www.hoyolab.com/article/47505988"
+    },
+    {
+      "game": "zzz",
+      "title": "〈젠레스 존 제로〉 공식 변조 통계 도구 출시!",
+      "date": "2026-11-20",
+      "url": "https://www.hoyolab.com/article/47507076"
+    },
+    {
+      "game": "zzz",
+      "title": "〈젠레스 존 제로〉와 리듬 게임 DJMAX RESPECT V의 특별 라이선스 콜라보 확정!",
+      "date": "2026-11-20",
+      "url": "https://www.hoyolab.com/article/47507109"
+    },
+    {
+      "game": "zzz",
+      "title": "3.4 버전 PV 「긴 나날의 끝자락」 | 젠레스 존 제로",
+      "date": "2026-11-20",
+      "url": "https://www.hoyolab.com/article/47507181"
+    },
+    {
+      "game": "zzz",
+      "title": "[보상 이벤트] 여명 전의 결전",
+      "date": "2026-11-20",
+      "url": "https://www.hoyolab.com/article/47507184"
+    },
+    {
+      "game": "zzz",
+      "title": "〈젠레스 존 제로〉 3.4 버전 「긴 나날의 끝자락」 특별 방송 | 정보 일람",
+      "date": "2026-11-20",
+      "url": "https://www.hoyolab.com/article/47507255"
+    },
+    {
+      "game": "zzz",
+      "title": "3.4 버전 「긴 나날의 끝자락」 혜택 속보",
+      "date": "2026-11-20",
+      "url": "https://www.hoyolab.com/article/47507327"
+    },
+    {
+      "game": "zzz",
+      "title": "〈젠레스 존 제로〉 3.4 버전 크리에이터 이벤트 진행 중",
+      "date": "2026-11-20",
+      "url": "https://www.hoyolab.com/article/47509083"
     },
     {
       "game": "genshin",
@@ -657,36 +761,6 @@
       "url": "https://www.hoyolab.com/article/47482557"
     },
     {
-      "game": "zzz",
-      "title": "G-STAR 출격 D-1! ⭐오시는 길 및 SNS 인증 이벤트!",
-      "date": "2026-11-18",
-      "url": "https://www.hoyolab.com/article/47481852"
-    },
-    {
-      "game": "zzz",
-      "title": "변조 통계 도구 소개",
-      "date": "2026-11-18",
-      "url": "https://www.hoyolab.com/article/47482559"
-    },
-    {
-      "game": "zzz",
-      "title": "배경화면 공유 | 세베리안 테마 배경화면",
-      "date": "2026-11-18",
-      "url": "https://www.hoyolab.com/article/47485496"
-    },
-    {
-      "game": "zzz",
-      "title": "다시 하늘을 향해 | 영상 파일 기록 공유",
-      "date": "2026-11-18",
-      "url": "https://www.hoyolab.com/article/47485642"
-    },
-    {
-      "game": "zzz",
-      "title": "G-STAR 출격 D-2! ⭐의뢰 보상 확인!",
-      "date": "2026-11-17",
-      "url": "https://www.hoyolab.com/article/47471382"
-    },
-    {
       "game": "genshin",
       "title": "<원신> 페이몬의 스케치 54-이모티콘 등장!",
       "date": "2026-11-16",
@@ -697,18 +771,6 @@
       "title": "「은하열차 공략 가이드」 웹 페이지 업데이트, 4.7 버전 공략 공모 이벤트 절찬리 진행 중!",
       "date": "2026-11-16",
       "url": "https://www.hoyolab.com/article/47464625"
-    },
-    {
-      "game": "zzz",
-      "title": "G-STAR 출격 D-3! ⭐현장 부스 하이라이트 공개!",
-      "date": "2026-11-16",
-      "url": "https://www.hoyolab.com/article/47459157"
-    },
-    {
-      "game": "zzz",
-      "title": "〈젠레스 존 제로〉 3.4 버전 「긴 나날의 끝자락」 특별 방송 예고",
-      "date": "2026-11-16",
-      "url": "https://www.hoyolab.com/article/47459953"
     },
     {
       "game": "genshin",
@@ -739,12 +801,6 @@
       "title": "[보상 이벤트] 에이언즈★아하 공략 토론 이벤트",
       "date": "2026-11-13",
       "url": "https://www.hoyolab.com/article/47425538"
-    },
-    {
-      "game": "hsr",
-      "title": "〈붕괴: 스타레일〉 EP: 「무로부터의 창조」",
-      "date": "2026-11-12",
-      "url": "https://www.hoyolab.com/article/47413467"
     },
     {
       "game": "hsr",
@@ -859,5 +915,5 @@
     "Suoming": "쇄명",
     "Yangyang: Xuanling": "양양·현령"
   },
-  "updatedAt": "2026-11-20T07:12:26.150Z"
+  "updatedAt": "2026-11-20T20:14:28.914Z"
 }
