@@ -616,6 +616,18 @@
   "news": [
     {
       "game": "genshin",
+      "title": "땅 신성화 재개를 앞두고·두 번째 이야기——「연대」",
+      "date": "2026-11-20",
+      "url": "https://www.hoyolab.com/article/47503139"
+    },
+    {
+      "game": "zzz",
+      "title": "[보상 이벤트] 이벤트에 참여하고 오리지널 마스터 테이프x10 혹은 Urban Kit 시리즈 휴대폰 스트랩 받기!",
+      "date": "2026-11-20",
+      "url": "https://www.hoyolab.com/article/47503180"
+    },
+    {
+      "game": "genshin",
       "title": "「일곱 성인의 소환」 격투 모드: 빠른 기책",
       "date": "2026-11-19",
       "url": "https://www.hoyolab.com/article/47493297"
@@ -700,12 +712,6 @@
     },
     {
       "game": "genshin",
-      "title": "원신 | 애니메이션 컷신-「하늘의 문」",
-      "date": "2026-11-15",
-      "url": "https://www.hoyolab.com/article/47448094"
-    },
-    {
-      "game": "genshin",
       "title": "위기 속에서 또다시 피어오르는 의혹…",
       "date": "2026-11-15",
       "url": "https://www.hoyolab.com/article/47448142"
@@ -733,12 +739,6 @@
       "title": "[보상 이벤트] 에이언즈★아하 공략 토론 이벤트",
       "date": "2026-11-13",
       "url": "https://www.hoyolab.com/article/47425538"
-    },
-    {
-      "game": "zzz",
-      "title": "Zenless Zone Zero × Discord｜로프넷 연례 꾸미기 대회",
-      "date": "2026-11-13",
-      "url": "https://www.hoyolab.com/article/47428577"
     },
     {
       "game": "hsr",
@@ -859,5 +859,5 @@
     "Suoming": "쇄명",
     "Yangyang: Xuanling": "양양·현령"
   },
-  "updatedAt": "2026-11-19T20:34:10.602Z"
+  "updatedAt": "2026-11-20T07:12:26.150Z"
 }
