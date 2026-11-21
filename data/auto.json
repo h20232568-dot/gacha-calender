@@ -628,6 +628,13 @@
     },
     {
       "game": "zzz",
+      "code": "HOLLOWRUN34",
+      "reward": "Polychrome*20, Denny*2,222",
+      "expires": "",
+      "source": "hoyo-codes.seria.moe"
+    },
+    {
+      "game": "zzz",
       "code": "INKSHIFT33",
       "reward": "Polychrome*20, Denny*2,222",
       "expires": "",
@@ -635,7 +642,21 @@
     },
     {
       "game": "zzz",
+      "code": "INKSHIFT34",
+      "reward": "Polychrome*20, Denny*2,222",
+      "expires": "",
+      "source": "hoyo-codes.seria.moe"
+    },
+    {
+      "game": "zzz",
       "code": "LEVELUP33",
+      "reward": "Polychrome*20, Denny*2,222",
+      "expires": "",
+      "source": "hoyo-codes.seria.moe"
+    },
+    {
+      "game": "zzz",
+      "code": "LEVELUP34",
       "reward": "Polychrome*20, Denny*2,222",
       "expires": "",
       "source": "hoyo-codes.seria.moe"
@@ -657,19 +678,31 @@
     {
       "game": "zzz",
       "code": "ZZZ34SUNBRINGER",
-      "reward": "",
+      "reward": "Polychrome*60, Denny*6,666",
       "expires": "",
       "source": "hoyo-codes.seria.moe"
     },
     {
       "game": "zzz",
       "code": "ZZZHSRCOLLAB",
-      "reward": "",
+      "reward": "Polychrome*50",
       "expires": "",
       "source": "hoyo-codes.seria.moe"
     }
   ],
   "news": [
+    {
+      "game": "genshin",
+      "title": "땅 신성화 재개를 앞두고·막간——「저항」",
+      "date": "2026-11-21",
+      "url": "https://www.hoyolab.com/article/47515888"
+    },
+    {
+      "game": "zzz",
+      "title": "시즌 3 회고 영상 「새로운 세계의 전야」 | 젠레스 존 제로",
+      "date": "2026-11-21",
+      "url": "https://www.hoyolab.com/article/47515889"
+    },
     {
       "game": "genshin",
       "title": "땅 신성화 재개를 앞두고·두 번째 이야기——「연대」",
@@ -681,12 +714,6 @@
       "title": "한정 ★5 캐릭터 로그인 즉시 수령",
       "date": "2026-11-20",
       "url": "https://www.hoyolab.com/article/47507004"
-    },
-    {
-      "game": "zzz",
-      "title": "〈젠레스 존 제로〉 3.4 버전 「긴 나날의 끝자락」 특별 방송 - 방송까지 앞으로 1시간!",
-      "date": "2026-11-20",
-      "url": "https://www.hoyolab.com/article/47505988"
     },
     {
       "game": "zzz",
@@ -771,12 +798,6 @@
       "title": "「은하열차 공략 가이드」 웹 페이지 업데이트, 4.7 버전 공략 공모 이벤트 절찬리 진행 중!",
       "date": "2026-11-16",
       "url": "https://www.hoyolab.com/article/47464625"
-    },
-    {
-      "game": "genshin",
-      "title": "위기 속에서 또다시 피어오르는 의혹…",
-      "date": "2026-11-15",
-      "url": "https://www.hoyolab.com/article/47448142"
     },
     {
       "game": "hsr",
@@ -915,5 +936,5 @@
     "Suoming": "쇄명",
     "Yangyang: Xuanling": "양양·현령"
   },
-  "updatedAt": "2026-11-20T20:14:28.914Z"
+  "updatedAt": "2026-11-21T07:03:40.137Z"
 }
