@@ -663,13 +663,6 @@
     },
     {
       "game": "zzz",
-      "code": "SUNCHASER",
-      "reward": "Polychrome*300, Senior Investigator Log*2, W-Engine Energy Module*3, Denny*30,000",
-      "expires": "",
-      "source": "hoyo-codes.seria.moe"
-    },
-    {
-      "game": "zzz",
       "code": "ZENLESSGIFT",
       "reward": "50 polychrome, two official investigator logs, three w-engine power supplies, and one bangboo algorithm module",
       "expires": "",
@@ -696,6 +689,12 @@
       "title": "「종착지가 하나뿐이라고 해도, 길은 여러 갈래니까」 | 「린네아」·심층 탐구",
       "date": "2026-11-22",
       "url": "https://www.hoyolab.com/article/47526860"
+    },
+    {
+      "game": "genshin",
+      "title": "사직신으로 모셔졌으니, 사직신으로 죽어야지요——자백·심층 탐구",
+      "date": "2026-11-22",
+      "url": "https://www.hoyolab.com/article/47529570"
     },
     {
       "game": "hsr",
@@ -792,12 +791,6 @@
       "title": "「종말의 서막」 7.2 버전 이벤트 알림 제2회",
       "date": "2026-11-19",
       "url": "https://www.hoyolab.com/article/47495002"
-    },
-    {
-      "game": "genshin",
-      "title": "「쾅쾅 블록 격파」 이벤트: 짜릿한 발굴 도전",
-      "date": "2026-11-18",
-      "url": "https://www.hoyolab.com/article/47482557"
     },
     {
       "game": "hsr",
@@ -936,5 +929,5 @@
     "Suoming": "쇄명",
     "Yangyang: Xuanling": "양양·현령"
   },
-  "updatedAt": "2026-11-22T06:44:24.914Z"
+  "updatedAt": "2026-11-22T19:36:25.797Z"
 }
