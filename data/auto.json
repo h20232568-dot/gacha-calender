@@ -693,6 +693,24 @@
   "news": [
     {
       "game": "genshin",
+      "title": "「종착지가 하나뿐이라고 해도, 길은 여러 갈래니까」 | 「린네아」·심층 탐구",
+      "date": "2026-11-22",
+      "url": "https://www.hoyolab.com/article/47526860"
+    },
+    {
+      "game": "hsr",
+      "title": "「차원 분열」 이벤트: 차원 장신구 기간 한정 2배 드랍",
+      "date": "2026-11-22",
+      "url": "https://www.hoyolab.com/article/47526861"
+    },
+    {
+      "game": "zzz",
+      "title": "생일 축하해, 「시드」 | 하나 더!",
+      "date": "2026-11-22",
+      "url": "https://www.hoyolab.com/article/47527098"
+    },
+    {
+      "game": "genshin",
       "title": "땅 신성화 재개를 앞두고·막간——「저항」",
       "date": "2026-11-21",
       "url": "https://www.hoyolab.com/article/47515888"
@@ -720,12 +738,6 @@
       "title": "한정 ★5 캐릭터 로그인 즉시 수령",
       "date": "2026-11-20",
       "url": "https://www.hoyolab.com/article/47507004"
-    },
-    {
-      "game": "zzz",
-      "title": "〈젠레스 존 제로〉와 리듬 게임 DJMAX RESPECT V의 특별 라이선스 콜라보 확정!",
-      "date": "2026-11-20",
-      "url": "https://www.hoyolab.com/article/47507109"
     },
     {
       "game": "zzz",
@@ -788,12 +800,6 @@
       "url": "https://www.hoyolab.com/article/47482557"
     },
     {
-      "game": "genshin",
-      "title": "<원신> 페이몬의 스케치 54-이모티콘 등장!",
-      "date": "2026-11-16",
-      "url": "https://www.hoyolab.com/article/47459956"
-    },
-    {
       "game": "hsr",
       "title": "「은하열차 공략 가이드」 웹 페이지 업데이트, 4.7 버전 공략 공모 이벤트 절찬리 진행 중!",
       "date": "2026-11-16",
@@ -822,12 +828,6 @@
       "title": "[보상 이벤트] 에이언즈★아하 공략 토론 이벤트",
       "date": "2026-11-13",
       "url": "https://www.hoyolab.com/article/47425538"
-    },
-    {
-      "game": "hsr",
-      "title": "「이상 낙원」 아홉 칸의 메아리: 칸을 이어 선을 만들고, 추억으로 성옥을 획득하자!",
-      "date": "2026-11-12",
-      "url": "https://www.hoyolab.com/article/47413545"
     },
     {
       "game": "hsr",
@@ -936,5 +936,5 @@
     "Suoming": "쇄명",
     "Yangyang: Xuanling": "양양·현령"
   },
-  "updatedAt": "2026-11-21T19:13:22.939Z"
+  "updatedAt": "2026-11-22T06:44:24.914Z"
 }
