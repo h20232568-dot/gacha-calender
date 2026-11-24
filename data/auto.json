@@ -685,6 +685,18 @@
   ],
   "news": [
     {
+      "game": "genshin",
+      "title": "[원석 보상] 자백 & 린네아 토픽 토론! 참여 시 원석 획득 가능!",
+      "date": "2026-11-24",
+      "url": "https://www.hoyolab.com/article/47546919"
+    },
+    {
+      "game": "genshin",
+      "title": "7.2 버전 HoYoverse 충전센터 공유 시 원석 획득 기회 증정 이벤트——제2회",
+      "date": "2026-11-24",
+      "url": "https://www.hoyolab.com/article/47546927"
+    },
+    {
       "game": "zzz",
       "title": "「데이터 현상금-실전 시뮬레이션」 이벤트 설명",
       "date": "2026-11-23",
@@ -767,18 +779,6 @@
       "title": "〈젠레스 존 제로〉 3.4 버전 크리에이터 이벤트 진행 중",
       "date": "2026-11-20",
       "url": "https://www.hoyolab.com/article/47509083"
-    },
-    {
-      "game": "genshin",
-      "title": "「일곱 성인의 소환」 격투 모드: 빠른 기책",
-      "date": "2026-11-19",
-      "url": "https://www.hoyolab.com/article/47493297"
-    },
-    {
-      "game": "genshin",
-      "title": "땅 신성화 재개를 앞두고·첫 번째 이야기——「협력」",
-      "date": "2026-11-19",
-      "url": "https://www.hoyolab.com/article/47493298"
     },
     {
       "game": "genshin",
@@ -929,5 +929,5 @@
     "Suoming": "쇄명",
     "Yangyang: Xuanling": "양양·현령"
   },
-  "updatedAt": "2026-11-23T07:34:14.403Z"
+  "updatedAt": "2026-11-24T09:51:26.019Z"
 }
