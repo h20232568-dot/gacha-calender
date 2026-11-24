@@ -516,13 +516,6 @@
     },
     {
       "game": "genshin",
-      "code": "MIJIQ23V2437",
-      "reward": "Mora*10000, Adventurer's Experience*10, Fine Enhancement Ore*5, Stir-Fried Fish Noodles*5, Jueyun Chili Chicken*5",
-      "expires": "",
-      "source": "hoyo-codes.seria.moe"
-    },
-    {
-      "game": "genshin",
       "code": "PJ2KEBRAYSRM",
       "reward": "Primogem*60, Adventurer's Experience*5",
       "expires": "",
@@ -929,5 +922,5 @@
     "Suoming": "쇄명",
     "Yangyang: Xuanling": "양양·현령"
   },
-  "updatedAt": "2026-11-24T09:51:26.019Z"
+  "updatedAt": "2026-11-24T22:24:50.163Z"
 }
