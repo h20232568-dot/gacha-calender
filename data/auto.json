@@ -679,6 +679,54 @@
   "news": [
     {
       "game": "genshin",
+      "title": "「투지 포착」 이벤트: 재미있는 촬영 도전",
+      "date": "2026-11-25",
+      "url": "https://www.hoyolab.com/article/47558481"
+    },
+    {
+      "game": "genshin",
+      "title": "「종말의 서막」 시리즈 월페이퍼 배포!",
+      "date": "2026-11-25",
+      "url": "https://www.hoyolab.com/article/47558483"
+    },
+    {
+      "game": "hsr",
+      "title": "「폼폼 갤러리 | 지금, 뭇별을 웃음으로•1」",
+      "date": "2026-11-25",
+      "url": "https://www.hoyolab.com/article/47558482"
+    },
+    {
+      "game": "hsr",
+      "title": "4.7 버전 디스코드 퀘스트 종료 예정!",
+      "date": "2026-11-25",
+      "url": "https://www.hoyolab.com/article/47559323"
+    },
+    {
+      "game": "zzz",
+      "title": "태양을 가져온 자 캐릭터 플레이 「태양이 지기 전에」 | 젠레스 존 제로",
+      "date": "2026-11-25",
+      "url": "https://www.hoyolab.com/article/47558480"
+    },
+    {
+      "game": "zzz",
+      "title": "스포트라이트 극장·공연 안내 | 태양을 가져온 자의 이름으로",
+      "date": "2026-11-25",
+      "url": "https://www.hoyolab.com/article/47558594"
+    },
+    {
+      "game": "zzz",
+      "title": "생일 축하해, 빌리 | 스타라이트 빌리(비행 버전)",
+      "date": "2026-11-25",
+      "url": "https://www.hoyolab.com/article/47558687"
+    },
+    {
+      "game": "zzz",
+      "title": "에이전트 미수록 영상 | 태양을 가져온 자 편",
+      "date": "2026-11-25",
+      "url": "https://www.hoyolab.com/article/47558871"
+    },
+    {
+      "game": "genshin",
       "title": "[원석 보상] 자백 & 린네아 토픽 토론! 참여 시 원석 획득 가능!",
       "date": "2026-11-24",
       "url": "https://www.hoyolab.com/article/47546919"
@@ -750,42 +798,6 @@
       "url": "https://www.hoyolab.com/article/47507004"
     },
     {
-      "game": "zzz",
-      "title": "[보상 이벤트] 여명 전의 결전",
-      "date": "2026-11-20",
-      "url": "https://www.hoyolab.com/article/47507184"
-    },
-    {
-      "game": "zzz",
-      "title": "〈젠레스 존 제로〉 3.4 버전 「긴 나날의 끝자락」 특별 방송 | 정보 일람",
-      "date": "2026-11-20",
-      "url": "https://www.hoyolab.com/article/47507255"
-    },
-    {
-      "game": "zzz",
-      "title": "3.4 버전 「긴 나날의 끝자락」 혜택 속보",
-      "date": "2026-11-20",
-      "url": "https://www.hoyolab.com/article/47507327"
-    },
-    {
-      "game": "zzz",
-      "title": "〈젠레스 존 제로〉 3.4 버전 크리에이터 이벤트 진행 중",
-      "date": "2026-11-20",
-      "url": "https://www.hoyolab.com/article/47509083"
-    },
-    {
-      "game": "genshin",
-      "title": "7.2 버전 이벤트 기원 알림 제2회",
-      "date": "2026-11-19",
-      "url": "https://www.hoyolab.com/article/47494924"
-    },
-    {
-      "game": "genshin",
-      "title": "「종말의 서막」 7.2 버전 이벤트 알림 제2회",
-      "date": "2026-11-19",
-      "url": "https://www.hoyolab.com/article/47495002"
-    },
-    {
       "game": "hsr",
       "title": "「은하열차 공략 가이드」 웹 페이지 업데이트, 4.7 버전 공략 공모 이벤트 절찬리 진행 중!",
       "date": "2026-11-16",
@@ -799,12 +811,6 @@
     },
     {
       "game": "hsr",
-      "title": "강적 정찰 너굴 노트 | 탐환의 신의 머리",
-      "date": "2026-11-13",
-      "url": "https://www.hoyolab.com/article/47424584"
-    },
-    {
-      "game": "hsr",
       "title": "운명의 마술",
       "date": "2026-11-13",
       "url": "https://www.hoyolab.com/article/47424980"
@@ -814,12 +820,6 @@
       "title": "[보상 이벤트] 에이언즈★아하 공략 토론 이벤트",
       "date": "2026-11-13",
       "url": "https://www.hoyolab.com/article/47425538"
-    },
-    {
-      "game": "hsr",
-      "title": "「이상 낙원」 신규 OST ≪신이 이르시되, 웃음이 있으라(하편)≫ 정식 출시",
-      "date": "2026-11-12",
-      "url": "https://www.hoyolab.com/article/47414506"
     },
     {
       "game": "wuwa",
@@ -922,5 +922,5 @@
     "Suoming": "쇄명",
     "Yangyang: Xuanling": "양양·현령"
   },
-  "updatedAt": "2026-11-24T22:24:50.163Z"
+  "updatedAt": "2026-11-25T08:29:40.594Z"
 }
