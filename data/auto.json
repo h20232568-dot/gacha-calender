@@ -509,6 +509,13 @@
     },
     {
       "game": "genshin",
+      "code": "AZHGG7H2ZQZS",
+      "reward": "",
+      "expires": "",
+      "source": "hoyo-codes.seria.moe"
+    },
+    {
+      "game": "genshin",
       "code": "CDOF4X83H7X2",
       "reward": "Mora*10000, Adventurer's Experience*10, Fine Enhancement Ore*5, Stir-Fried Fish Noodles*5, Jueyun Chili Chicken*5",
       "expires": "",
@@ -922,5 +929,5 @@
     "Suoming": "쇄명",
     "Yangyang: Xuanling": "양양·현령"
   },
-  "updatedAt": "2026-11-25T08:29:40.594Z"
+  "updatedAt": "2026-11-25T21:40:08.590Z"
 }
