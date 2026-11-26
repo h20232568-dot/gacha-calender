@@ -697,6 +697,18 @@
       "url": "https://www.hoyolab.com/article/47568244"
     },
     {
+      "game": "zzz",
+      "title": "판매 불가 영상 | 태양을 가져온 자",
+      "date": "2026-11-26",
+      "url": "https://www.hoyolab.com/article/47570417"
+    },
+    {
+      "game": "zzz",
+      "title": "에이전트 미수록 영상 | 로빈 편",
+      "date": "2026-11-26",
+      "url": "https://www.hoyolab.com/article/47570535"
+    },
+    {
       "game": "genshin",
       "title": "「투지 포착」 이벤트: 재미있는 촬영 도전",
       "date": "2026-11-25",
@@ -757,12 +769,6 @@
       "url": "https://www.hoyolab.com/article/47546927"
     },
     {
-      "game": "zzz",
-      "title": "「데이터 현상금-실전 시뮬레이션」 이벤트 설명",
-      "date": "2026-11-23",
-      "url": "https://www.hoyolab.com/article/47537269"
-    },
-    {
       "game": "genshin",
       "title": "「종착지가 하나뿐이라고 해도, 길은 여러 갈래니까」 | 「린네아」·심층 탐구",
       "date": "2026-11-22",
@@ -779,12 +785,6 @@
       "title": "「차원 분열」 이벤트: 차원 장신구 기간 한정 2배 드랍",
       "date": "2026-11-22",
       "url": "https://www.hoyolab.com/article/47526861"
-    },
-    {
-      "game": "zzz",
-      "title": "생일 축하해, 「시드」 | 하나 더!",
-      "date": "2026-11-22",
-      "url": "https://www.hoyolab.com/article/47527098"
     },
     {
       "game": "genshin",
@@ -929,5 +929,5 @@
     "Suoming": "쇄명",
     "Yangyang: Xuanling": "양양·현령"
   },
-  "updatedAt": "2026-11-26T08:13:24.517Z"
+  "updatedAt": "2026-11-26T21:29:11.027Z"
 }
