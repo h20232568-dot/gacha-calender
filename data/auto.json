@@ -685,6 +685,18 @@
   ],
   "news": [
     {
+      "game": "zzz",
+      "title": "Random Play | 홀로그램 훈련 - 태양을 가져온 자&로빈",
+      "date": "2026-11-26",
+      "url": "https://www.hoyolab.com/article/47568017"
+    },
+    {
+      "game": "zzz",
+      "title": "에이전트 메커니즘 소개 | 태양을 가져온 자 편",
+      "date": "2026-11-26",
+      "url": "https://www.hoyolab.com/article/47568244"
+    },
+    {
       "game": "genshin",
       "title": "「투지 포착」 이벤트: 재미있는 촬영 도전",
       "date": "2026-11-25",
@@ -779,18 +791,6 @@
       "title": "땅 신성화 재개를 앞두고·막간——「저항」",
       "date": "2026-11-21",
       "url": "https://www.hoyolab.com/article/47515888"
-    },
-    {
-      "game": "zzz",
-      "title": "시즌 3 회고 영상 「새로운 세계의 전야」 | 젠레스 존 제로",
-      "date": "2026-11-21",
-      "url": "https://www.hoyolab.com/article/47515889"
-    },
-    {
-      "game": "zzz",
-      "title": "「G-STAR 긴급 의뢰: ZERO IN ALL OUT」현장 하이라이트 사진 📸",
-      "date": "2026-11-21",
-      "url": "https://www.hoyolab.com/article/47518367"
     },
     {
       "game": "genshin",
@@ -929,5 +929,5 @@
     "Suoming": "쇄명",
     "Yangyang: Xuanling": "양양·현령"
   },
-  "updatedAt": "2026-11-25T21:40:08.590Z"
+  "updatedAt": "2026-11-26T08:13:24.517Z"
 }
