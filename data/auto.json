@@ -686,6 +686,18 @@
   "news": [
     {
       "game": "zzz",
+      "title": "태양을 가져온 자 애니메이션 단편 「마지막 여정」 | 젠레스 존 제로",
+      "date": "2026-11-27",
+      "url": "https://www.hoyolab.com/article/47576910"
+    },
+    {
+      "game": "zzz",
+      "title": "에이전트 메커니즘 소개 | 로빈 편",
+      "date": "2026-11-27",
+      "url": "https://www.hoyolab.com/article/47577198"
+    },
+    {
+      "game": "zzz",
       "title": "Random Play | 홀로그램 훈련 - 태양을 가져온 자&로빈",
       "date": "2026-11-26",
       "url": "https://www.hoyolab.com/article/47568017"
@@ -731,18 +743,6 @@
       "title": "4.7 버전 디스코드 퀘스트 종료 예정!",
       "date": "2026-11-25",
       "url": "https://www.hoyolab.com/article/47559323"
-    },
-    {
-      "game": "zzz",
-      "title": "태양을 가져온 자 캐릭터 플레이 「태양이 지기 전에」 | 젠레스 존 제로",
-      "date": "2026-11-25",
-      "url": "https://www.hoyolab.com/article/47558480"
-    },
-    {
-      "game": "zzz",
-      "title": "스포트라이트 극장·공연 안내 | 태양을 가져온 자의 이름으로",
-      "date": "2026-11-25",
-      "url": "https://www.hoyolab.com/article/47558594"
     },
     {
       "game": "zzz",
@@ -929,5 +929,5 @@
     "Suoming": "쇄명",
     "Yangyang: Xuanling": "양양·현령"
   },
-  "updatedAt": "2026-11-26T21:29:11.027Z"
+  "updatedAt": "2026-11-27T08:26:30.862Z"
 }
