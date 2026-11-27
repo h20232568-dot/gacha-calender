@@ -685,6 +685,18 @@
   ],
   "news": [
     {
+      "game": "genshin",
+      "title": "「별세계 메모리얼」 웹이벤트가 기간 한정으로 오픈됩니다!",
+      "date": "2026-11-27",
+      "url": "https://www.hoyolab.com/article/47579095"
+    },
+    {
+      "game": "hsr",
+      "title": "HoYoFair 〈붕괴: 스타레일〉 2026 2차 창작 특별 프로그램 「레드벨벳 프라이데이」",
+      "date": "2026-11-27",
+      "url": "https://www.hoyolab.com/article/47580005"
+    },
+    {
       "game": "zzz",
       "title": "태양을 가져온 자 애니메이션 단편 「마지막 여정」 | 젠레스 존 제로",
       "date": "2026-11-27",
@@ -793,12 +805,6 @@
       "url": "https://www.hoyolab.com/article/47515888"
     },
     {
-      "game": "genshin",
-      "title": "땅 신성화 재개를 앞두고·두 번째 이야기——「연대」",
-      "date": "2026-11-20",
-      "url": "https://www.hoyolab.com/article/47503139"
-    },
-    {
       "game": "hsr",
       "title": "한정 ★5 캐릭터 로그인 즉시 수령",
       "date": "2026-11-20",
@@ -815,12 +821,6 @@
       "title": "낙원에 온 걸 환영해 | 스타프로스터에서 온 초청장",
       "date": "2026-11-14",
       "url": "https://www.hoyolab.com/article/47436372"
-    },
-    {
-      "game": "hsr",
-      "title": "운명의 마술",
-      "date": "2026-11-13",
-      "url": "https://www.hoyolab.com/article/47424980"
     },
     {
       "game": "hsr",
@@ -929,5 +929,5 @@
     "Suoming": "쇄명",
     "Yangyang: Xuanling": "양양·현령"
   },
-  "updatedAt": "2026-11-27T08:26:30.862Z"
+  "updatedAt": "2026-11-27T21:15:17.717Z"
 }
