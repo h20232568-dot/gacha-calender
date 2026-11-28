@@ -685,6 +685,42 @@
   ],
   "news": [
     {
+      "game": "zzz",
+      "title": "에이전트 파일 | 세실리아",
+      "date": "2026-11-28",
+      "url": "https://www.hoyolab.com/article/47585996"
+    },
+    {
+      "game": "zzz",
+      "title": "[성우 공개] 세실리아",
+      "date": "2026-11-28",
+      "url": "https://www.hoyolab.com/article/47586020"
+    },
+    {
+      "game": "zzz",
+      "title": "(폭탄급) 에이전트 파일 | 휴기",
+      "date": "2026-11-28",
+      "url": "https://www.hoyolab.com/article/47586385"
+    },
+    {
+      "game": "zzz",
+      "title": "[성우 공개] 휴기",
+      "date": "2026-11-28",
+      "url": "https://www.hoyolab.com/article/47586428"
+    },
+    {
+      "game": "zzz",
+      "title": "태양을 가져온 자 EP 「Triple Threat」 | 젠레스 존 제로",
+      "date": "2026-11-28",
+      "url": "https://www.hoyolab.com/article/47586861"
+    },
+    {
+      "game": "zzz",
+      "title": "New Eridan Vol.08 I 은하의 리듬",
+      "date": "2026-11-28",
+      "url": "https://www.hoyolab.com/article/47586987"
+    },
+    {
       "game": "genshin",
       "title": "「별세계 메모리얼」 웹이벤트가 기간 한정으로 오픈됩니다!",
       "date": "2026-11-27",
@@ -709,30 +745,6 @@
       "url": "https://www.hoyolab.com/article/47577198"
     },
     {
-      "game": "zzz",
-      "title": "Random Play | 홀로그램 훈련 - 태양을 가져온 자&로빈",
-      "date": "2026-11-26",
-      "url": "https://www.hoyolab.com/article/47568017"
-    },
-    {
-      "game": "zzz",
-      "title": "에이전트 메커니즘 소개 | 태양을 가져온 자 편",
-      "date": "2026-11-26",
-      "url": "https://www.hoyolab.com/article/47568244"
-    },
-    {
-      "game": "zzz",
-      "title": "판매 불가 영상 | 태양을 가져온 자",
-      "date": "2026-11-26",
-      "url": "https://www.hoyolab.com/article/47570417"
-    },
-    {
-      "game": "zzz",
-      "title": "에이전트 미수록 영상 | 로빈 편",
-      "date": "2026-11-26",
-      "url": "https://www.hoyolab.com/article/47570535"
-    },
-    {
       "game": "genshin",
       "title": "「투지 포착」 이벤트: 재미있는 촬영 도전",
       "date": "2026-11-25",
@@ -755,18 +767,6 @@
       "title": "4.7 버전 디스코드 퀘스트 종료 예정!",
       "date": "2026-11-25",
       "url": "https://www.hoyolab.com/article/47559323"
-    },
-    {
-      "game": "zzz",
-      "title": "생일 축하해, 빌리 | 스타라이트 빌리(비행 버전)",
-      "date": "2026-11-25",
-      "url": "https://www.hoyolab.com/article/47558687"
-    },
-    {
-      "game": "zzz",
-      "title": "에이전트 미수록 영상 | 태양을 가져온 자 편",
-      "date": "2026-11-25",
-      "url": "https://www.hoyolab.com/article/47558871"
     },
     {
       "game": "genshin",
@@ -929,5 +929,5 @@
     "Suoming": "쇄명",
     "Yangyang: Xuanling": "양양·현령"
   },
-  "updatedAt": "2026-11-27T21:15:17.717Z"
+  "updatedAt": "2026-11-28T07:44:29.875Z"
 }
